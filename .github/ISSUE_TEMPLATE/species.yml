@@ -1,0 +1,75 @@
+name: Species
+description: Propose a new species or fix an existing one, no Git needed.
+title: "[Species] "
+labels: ["species"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Write in your own words and cite where each fact comes from.
+        Use metric units (cm, liters, °C, °dH). If you are not sure about a value, leave it blank.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Contribution type
+      options:
+        - New species
+        - Correction to an existing species
+    validations:
+      required: true
+
+  - type: input
+    id: scientific_name
+    attributes:
+      label: Scientific name
+      placeholder: Paracheirodon innesi
+    validations:
+      required: true
+
+  - type: input
+    id: common_name_es
+    attributes:
+      label: Spanish common name
+      placeholder: Neón tetra
+    validations:
+      required: true
+
+  - type: input
+    id: common_name_en
+    attributes:
+      label: English common name
+      placeholder: Neon tetra
+
+  - type: textarea
+    id: known_data
+    attributes:
+      label: Data you know
+      description: Adult size, minimum liters, temperature, pH, hardness, temperament, swim zone, diet, etc. For a correction, give the field, the current value and the correct value.
+      placeholder: |
+        temperature: 22–26 °C
+        pH: 6.0–7.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Images (optional)
+      description: Links to Pixabay pages that show this species, e.g. https://pixabay.com/photos/neon-tetra-1234567/. Please don't attach image files.
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links, books or articles the data comes from.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: license
+    attributes:
+      label: License
+      options:
+        - label: I agree that my contribution is published under the MIT License and confirm I did not copy text from other sources.
+          required: true

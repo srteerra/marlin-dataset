@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "genus-species",
+  "scientific_name": "Genus species",
+  "common_names": {
+    "es": [],
+    "en": []
+  },
+  "family": null,
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": null,
+  "temperature_c": null,
+  "ph": null,
+  "hardness_dgh": null,
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": null,
+  "incompatible_with": [],
+  "images": [],
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

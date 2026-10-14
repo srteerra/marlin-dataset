@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "testus-beta",
+  "scientific_name": "Testus beta",
+  "common_names": {
+    "es": ["Pez de prueba"]
+  },
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 40,
+  "temperature_c": null,
+  "ph": {
+    "min": 6.0,
+    "max": 7.5
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "sources": [],
+  "status": "draft"
+}

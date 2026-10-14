@@ -1,0 +1,14 @@
+# Go
+tools/marlin-dataset
+tools/*.exe
+*.test
+*.out
+
+# Local environment
+.env
+.env.*
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store

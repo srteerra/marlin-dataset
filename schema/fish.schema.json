@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fish species",
+  "description": "One aquarium fish species. Metric units only. Use null when a value is not known with certainty; never a guess.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "id",
+    "scientific_name",
+    "common_names",
+    "water_type",
+    "adult_size_cm",
+    "min_tank_liters",
+    "temperature_c",
+    "ph",
+    "temperament",
+    "swim_zone",
+    "diet",
+    "care_level",
+    "sources",
+    "status"
+  ],
+  "properties": {
+    "$schema": {
+      "description": "Points editors to this schema for autocompletion. Always ../../schema/fish.schema.json.",
+      "const": "../../schema/fish.schema.json"
+    },
+    "id": {
+      "description": "Scientific name in kebab-case, without accents. Also the file name: fish/<genus>/<id>.json.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
+    },
+    "scientific_name": {
+      "description": "Scientific name, e.g. \"Paracheirodon innesi\".",
+      "type": "string",
+      "minLength": 1
+    },
+    "common_names": {
+      "description": "Common names by language.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["es"],
+      "properties": {
+        "es": {
+          "description": "Spanish common names (at least one).",
+          "$ref": "#/$defs/nameList",
+          "minItems": 1
+        },
+        "en": {
+          "description": "English common names.",
+          "$ref": "#/$defs/nameList"
+        }
+      }
+    },
+    "family": {
+      "description": "Taxonomic family, e.g. \"Characidae\".",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "water_type": {
+      "description": "Water the species lives in.",
+      "enum": ["freshwater", "brackish", "marine"]
+    },
+    "adult_size_cm": {
+      "description": "Typical adult length in centimeters.",
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "min_tank_liters": {
+      "description": "Minimum tank volume in liters.",
+      "$ref": "#/$defs/positiveNumber"
+    },
+    "temperature_c": {
+      "description": "Temperature range in °C, e.g. { \"min\": 22, \"max\": 26 }.",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "ph": {
+      "description": "pH range, e.g. { \"min\": 6.0, \"max\": 7.5 }.",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "hardness_dgh": {
+      "description": "General hardness range in °dH (optional).",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "temperament": {
+      "description": "Behavior toward other fish.",
+      "enum": ["peaceful", "semi_aggressive", "aggressive", null]
+    },
+    "swim_zone": {
+      "description": "Part of the tank where it usually swims.",
+      "enum": ["top", "middle", "bottom", "all", null]
+    },
+    "schooling_min": {
+      "description": "Minimum group size. null if the species does not live in groups.",
+      "type": ["integer", "null"],
+      "minimum": 2
+    },
+    "diet": {
+      "description": "Main diet.",
+      "enum": ["herbivore", "carnivore", "omnivore", null]
+    },
+    "care_level": {
+      "description": "Experience needed to keep it.",
+      "enum": ["beginner", "intermediate", "advanced", null]
+    },
+    "incompatible_with": {
+      "description": "Species that should not share a tank. Only what cannot be deduced from the other fields.",
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "reason"],
+        "properties": {
+          "id": {
+            "description": "id of the other species; it must exist in the dataset.",
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
+          },
+          "reason": {
+            "description": "Short reason, in English and in your own words.",
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "images": {
+      "description": "References to images hosted elsewhere. Never commit image files to this repository.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/image" }
+    },
+    "notes": {
+      "description": "Short original text, in English. Never copied.",
+      "type": ["string", "null"]
+    },
+    "sources": {
+      "description": "Where the data comes from. At least one is required for status reviewed.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "status": {
+      "description": "draft = not reviewed. reviewed = verified by a human, with sources. Only a human sets reviewed.",
+      "enum": ["draft", "reviewed"]
+    }
+  },
+  "$defs": {
+    "nameList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "positiveNumber": {
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "nullableRange": {
+      "description": "A { min, max } range, or null when unknown.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      }
+    },
+    "image": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "license"],
+      "properties": {
+        "url": {
+          "description": "Page of the image on the source site (not a direct file link), e.g. https://pixabay.com/photos/neon-tetra-1234567/.",
+          "type": "string",
+          "pattern": "^https://pixabay\\.com/"
+        },
+        "author": {
+          "description": "Author name as shown on the source site. Credit is not required by Pixabay but appreciated.",
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "license": {
+          "description": "License of the image. Only Pixabay is accepted for now.",
+          "enum": ["pixabay"]
+        }
+      }
+    }
+  }
+}
