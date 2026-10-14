@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hypostomus-plecostomus",
+  "scientific_name": "Hypostomus plecostomus",
+  "common_names": {
+    "es": ["Chupa Algas", "Pleco", "Plecostomus"],
+    "en": []
+  },
+  "family": "Loricariidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 50,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 22,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

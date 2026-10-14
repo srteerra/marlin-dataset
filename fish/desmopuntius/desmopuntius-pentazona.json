@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "desmopuntius-pentazona",
+  "scientific_name": "Desmopuntius pentazona",
+  "common_names": {
+    "es": ["Barbo de Cinco Bandas"],
+    "en": ["Five-banded barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Puntius pentazona.",
+  "sources": [],
+  "status": "draft"
+}

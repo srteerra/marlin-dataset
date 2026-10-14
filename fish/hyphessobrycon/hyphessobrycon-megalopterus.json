@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-megalopterus",
+  "scientific_name": "Hyphessobrycon megalopterus",
+  "common_names": {
+    "es": ["Fantasmita", "Tetra Fantasma Negro"],
+    "en": ["Black phantom tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

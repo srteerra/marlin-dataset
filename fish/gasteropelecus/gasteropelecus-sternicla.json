@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gasteropelecus-sternicla",
+  "scientific_name": "Gasteropelecus sternicla",
+  "common_names": {
+    "es": ["Pez Hacha Común", "Pez Hacha Plateado"],
+    "en": ["River hatchetfish"]
+  },
+  "family": "Gasteropelecidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "top",
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

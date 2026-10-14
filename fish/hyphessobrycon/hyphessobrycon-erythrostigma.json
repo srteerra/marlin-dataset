@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-erythrostigma",
+  "scientific_name": "Hyphessobrycon erythrostigma",
+  "common_names": {
+    "es": ["Tetra Corazón Sangrante", "Tetra de Mancha Roja"],
+    "en": ["Bleeding heart tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 90,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 10,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

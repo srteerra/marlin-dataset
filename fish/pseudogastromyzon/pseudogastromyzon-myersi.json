@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudogastromyzon-myersi",
+  "scientific_name": "Pseudogastromyzon myersi",
+  "common_names": {
+    "es": ["Chupa Algas de Agua Fría", "Locha Mariposa", "Locha de Arroyo de Montaña"],
+    "en": []
+  },
+  "family": "Balitoridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 18
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

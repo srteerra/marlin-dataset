@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "macropodus-opercularis",
+  "scientific_name": "Macropodus opercularis",
+  "common_names": {
+    "es": ["Gurami Paraíso", "Macrópodo", "Pez Paraíso"],
+    "en": ["Paradise fish"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 15,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 20
+  },
+  "temperament": "aggressive",
+  "swim_zone": "top",
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

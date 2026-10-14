@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cyphotilapia-frontosa",
+  "scientific_name": "Cyphotilapia frontosa",
+  "common_names": {
+    "es": ["Cíclido Frontosa", "Frontosa de Siete Rayas"],
+    "en": ["Frontosa"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 400,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 8,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

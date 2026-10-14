@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudotropheus-flavus",
+  "scientific_name": "Pseudotropheus flavus",
+  "common_names": {
+    "es": ["Flavus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.6,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 12,
+    "max": 18
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

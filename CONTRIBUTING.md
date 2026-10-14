@@ -34,24 +34,8 @@ Thanks for helping! No prior experience needed: if you know about fish, you can 
 | `diet` | `herbivore`, `carnivore`, `omnivore` |
 | `care_level` | `beginner`, `intermediate`, `advanced` |
 | `schooling_min` | minimum group size (2 or more), `null` if it does not live in groups |
-| `incompatible_with` | only what cannot be deduced from the other fields, e.g. `[{ "id": "pterophyllum-scalare", "reason": "Adult angelfish may eat it." }]` |
 
 Every field is described in [`schema/fish.schema.json`](schema/fish.schema.json).
-
-### Images
-
-Images are **links, never files**. Do not add image files to the repository.
-
-- For now only [Pixabay](https://pixabay.com) is accepted.
-- Use the image **page** URL (e.g. `https://pixabay.com/photos/neon-tetra-1234567/`), not a direct file link.
-- Make sure the photo really shows this species: many photos online are misidentified.
-- Avoid photos with visible brands, logos or recognizable people.
-
-```json
-"images": [
-  { "url": "https://pixabay.com/photos/neon-tetra-1234567/", "author": "Author name", "license": "pixabay" }
-]
-```
 
 ### Don't use Git?
 
@@ -61,7 +45,7 @@ Open an issue with the **Species** template: write what you know and your source
 
 - **Do not copy text** from websites, books or databases. Facts (a temperature range, a size) can be used; the wording has to be yours.
 - Do not extract tables from databases with non-commercial or share-alike licenses (for example FishBase). You can consult them to verify a fact, nothing more.
-- No image files: only links to images (see [Images](#images)).
+- No images for now: neither files nor links.
 - Need a new field? Propose it in an issue first; schema changes go in a separate PR.
 
 ## Commit messages

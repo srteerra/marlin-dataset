@@ -3,23 +3,30 @@
   "id": "betta-splendens",
   "scientific_name": "Betta splendens",
   "common_names": {
-    "es": ["Pez luchador de Siam", "Betta"],
+    "es": ["Pez Betta", "Combatiente Siamés", "Luchador de Siam"],
     "en": ["Siamese fighting fish", "Betta"]
   },
   "family": "Osphronemidae",
   "water_type": "freshwater",
-  "adult_size_cm": null,
-  "min_tank_liters": null,
-  "temperature_c": null,
-  "ph": null,
-  "hardness_dgh": null,
-  "temperament": null,
+  "adult_size_cm": 7,
+  "min_tank_liters": 20,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 14
+  },
+  "temperament": "aggressive",
   "swim_zone": "top",
-  "schooling_min": null,
-  "diet": "carnivore",
-  "care_level": null,
-  "incompatible_with": [],
-  "images": [],
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "beginner",
   "notes": null,
   "sources": [],
   "status": "draft"

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "paracheirodon-axelrodi",
+  "scientific_name": "Paracheirodon axelrodi",
+  "common_names": {
+    "es": ["Cardenal", "Neón Cardenal", "Tetra Cardenal"],
+    "en": ["Cardinal tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 4.6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 6
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 10,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

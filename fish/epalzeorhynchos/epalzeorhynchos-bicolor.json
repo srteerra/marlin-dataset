@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "epalzeorhynchos-bicolor",
+  "scientific_name": "Epalzeorhynchos bicolor",
+  "common_names": {
+    "es": ["Labeo Bicolor", "Labeo de Cola Roja", "Tiburón Cola Roja"],
+    "en": ["Red-tailed black shark"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 150,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 9,
+    "max": 16
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

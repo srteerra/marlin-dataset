@@ -15,7 +15,6 @@ const (
 	reasonOutOfBounds            = "out of bounds"
 	reasonReviewedWithoutSources = "status reviewed requires at least one source"
 	reasonDuplicateID            = "duplicate id, already used in"
-	reasonUnknownReference       = "unknown species"
 )
 
 // Issue describes a single validation problem in a dataset file.

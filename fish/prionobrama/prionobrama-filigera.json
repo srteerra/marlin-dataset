@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "prionobrama-filigera",
+  "scientific_name": "Prionobrama filigera",
+  "common_names": {
+    "es": ["Pez de Cristal", "Tetra Cola de Sangre", "Tetra de Vidrio"],
+    "en": []
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

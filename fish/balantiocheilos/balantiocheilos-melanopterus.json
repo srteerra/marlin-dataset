@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "balantiocheilos-melanopterus",
+  "scientific_name": "Balantiocheilos melanopterus",
+  "common_names": {
+    "es": ["Labeo Plateado", "Tiburón Bala", "Tiburón Plata"],
+    "en": ["Bala shark"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 40,
+  "min_tank_liters": 500,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.2,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 5,
+  "diet": "omnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

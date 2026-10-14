@@ -13,7 +13,6 @@
 - [ ] The text (`notes`, `reason`) is in English and in my own words; I did not copy from any website, book or database.
 - [ ] I used metric units: cm, liters, °C, °dH.
 - [ ] I left as `null` anything I don't know with certainty.
-- [ ] Images (if any) are Pixabay page links that really show this species; no image files added.
 - [ ] `status` is correct: `draft`, or `reviewed` only if a human verified the data and there is at least one source.
 - [ ] Validation passes (`cd tools && go run . validate ../fish`) or I let CI run it.
 

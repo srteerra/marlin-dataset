@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "potamotrygon-hystrix",
+  "scientific_name": "Potamotrygon hystrix",
+  "common_names": {
+    "es": ["Chucho de Río", "Chuco Pintado", "Raya de Agua Dulce"],
+    "en": []
+  },
+  "family": "Potamotrygonidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 50,
+  "min_tank_liters": 180,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 6,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

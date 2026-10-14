@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nannostomus-trifasciatus",
+  "scientific_name": "Nannostomus trifasciatus",
+  "common_names": {
+    "es": ["Pez Lápiz", "Pez Lápiz de Tres Bandas"],
+    "en": ["Three-lined pencilfish"]
+  },
+  "family": "Lebiasinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

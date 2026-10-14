@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "garra-cambodgiensis",
+  "scientific_name": "Garra cambodgiensis",
+  "common_names": {
+    "es": ["Chupa Algas Garra", "Falso Siamensis", "Falso Zorro Volador"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 21,
+    "max": 26
+  },
+  "ph": {
+    "min": 7,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

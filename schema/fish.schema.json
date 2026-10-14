@@ -103,32 +103,6 @@
       "description": "Experience needed to keep it.",
       "enum": ["beginner", "intermediate", "advanced", null]
     },
-    "incompatible_with": {
-      "description": "Species that should not share a tank. Only what cannot be deduced from the other fields.",
-      "type": ["array", "null"],
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["id", "reason"],
-        "properties": {
-          "id": {
-            "description": "id of the other species; it must exist in the dataset.",
-            "type": "string",
-            "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
-          },
-          "reason": {
-            "description": "Short reason, in English and in your own words.",
-            "type": "string",
-            "minLength": 1
-          }
-        }
-      }
-    },
-    "images": {
-      "description": "References to images hosted elsewhere. Never commit image files to this repository.",
-      "type": "array",
-      "items": { "$ref": "#/$defs/image" }
-    },
     "notes": {
       "description": "Short original text, in English. Never copied.",
       "type": ["string", "null"]
@@ -160,27 +134,6 @@
       "properties": {
         "min": { "type": "number" },
         "max": { "type": "number" }
-      }
-    },
-    "image": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["url", "license"],
-      "properties": {
-        "url": {
-          "description": "Page of the image on the source site (not a direct file link), e.g. https://pixabay.com/photos/neon-tetra-1234567/.",
-          "type": "string",
-          "pattern": "^https://pixabay\\.com/"
-        },
-        "author": {
-          "description": "Author name as shown on the source site. Credit is not required by Pixabay but appreciated.",
-          "type": ["string", "null"],
-          "minLength": 1
-        },
-        "license": {
-          "description": "License of the image. Only Pixabay is accepted for now.",
-          "enum": ["pixabay"]
-        }
       }
     }
   }

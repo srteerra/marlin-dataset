@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "bedotia-geayi",
+  "scientific_name": "Bedotia geayi",
+  "common_names": {
+    "es": ["Pez Arcoíris de Madagascar", "Pez Espiga"],
+    "en": ["Madagascar rainbowfish"]
+  },
+  "family": "Bedotiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 150,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

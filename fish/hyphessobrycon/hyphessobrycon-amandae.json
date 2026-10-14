@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-amandae",
+  "scientific_name": "Hyphessobrycon amandae",
+  "common_names": {
+    "es": ["Tetra Ambar", "Tetra Ascua", "Tetra Chispa"],
+    "en": ["Ember tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.5,
+  "min_tank_liters": 40,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

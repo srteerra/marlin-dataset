@@ -3,23 +3,30 @@
   "id": "paracheirodon-innesi",
   "scientific_name": "Paracheirodon innesi",
   "common_names": {
-    "es": ["Neón tetra"],
+    "es": ["Pez Neón", "Tetra Neón"],
     "en": ["Neon tetra"]
   },
   "family": "Characidae",
   "water_type": "freshwater",
-  "adult_size_cm": null,
-  "min_tank_liters": null,
-  "temperature_c": null,
-  "ph": null,
-  "hardness_dgh": null,
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 2
+  },
   "temperament": "peaceful",
   "swim_zone": "middle",
-  "schooling_min": null,
+  "schooling_min": 8,
   "diet": "omnivore",
-  "care_level": null,
-  "incompatible_with": [],
-  "images": [],
+  "care_level": "intermediate",
   "notes": null,
   "sources": [],
   "status": "draft"

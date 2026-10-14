@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudotropheus-crabro",
+  "scientific_name": "Pseudotropheus crabro",
+  "common_names": {
+    "es": ["Abejorro", "Avispón", "Camaleón"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 16,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 7.8,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 12,
+    "max": 18
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichopodus-leerii",
+  "scientific_name": "Trichopodus leerii",
+  "common_names": {
+    "es": ["Gourami Mosaico", "Gourami Perla"],
+    "en": ["Pearl gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Trichogaster leerii.",
+  "sources": [],
+  "status": "draft"
+}

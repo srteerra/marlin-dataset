@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "astyanax-jordani",
+  "scientific_name": "Astyanax jordani",
+  "common_names": {
+    "es": ["Tetra Cavernícola", "Tetra Ciego"],
+    "en": ["Blind cave tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 18,
+    "max": 26
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 20
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "middle",
+  "schooling_min": 10,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

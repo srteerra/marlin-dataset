@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichogaster-fasciata",
+  "scientific_name": "Trichogaster fasciata",
+  "common_names": {
+    "es": ["Colisa Fasciata", "Colisa Gigante", "Gourami Bandeado"],
+    "en": ["Banded gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 14,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Polyacanthus fasciatus.",
+  "sources": [],
+  "status": "draft"
+}

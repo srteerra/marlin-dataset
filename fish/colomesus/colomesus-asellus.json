@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "colomesus-asellus",
+  "scientific_name": "Colomesus asellus",
+  "common_names": {
+    "es": ["Pez Globo Amazónico", "Puffer Sudamericano"],
+    "en": ["South American puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12.8,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 25,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

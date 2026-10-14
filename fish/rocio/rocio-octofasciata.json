@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rocio-octofasciata",
+  "scientific_name": "Rocio octofasciata",
+  "common_names": {
+    "es": ["Cíclido de Ocho Bandas", "Jack Dempsey"],
+    "en": ["Jack Dempsey"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 6.8,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 18
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

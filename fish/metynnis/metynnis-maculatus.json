@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "metynnis-maculatus",
+  "scientific_name": "Metynnis maculatus",
+  "common_names": {
+    "es": ["Palometa", "Pez Dólar de Plata", "Piraña Vegetariana"],
+    "en": []
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 250,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

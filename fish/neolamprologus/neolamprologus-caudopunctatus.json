@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-caudopunctatus",
+  "scientific_name": "Neolamprologus caudopunctatus",
+  "common_names": {
+    "es": ["Caudopunctatus", "Punky"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

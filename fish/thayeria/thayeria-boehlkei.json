@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "thayeria-boehlkei",
+  "scientific_name": "Thayeria boehlkei",
+  "common_names": {
+    "es": ["Pingüino", "Tetra Oblicuo", "Tetra Pingüino"],
+    "en": []
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

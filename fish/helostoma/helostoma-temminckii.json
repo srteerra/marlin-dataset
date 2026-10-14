@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "helostoma-temminckii",
+  "scientific_name": "Helostoma temminckii",
+  "common_names": {
+    "es": ["Besucón", "Gurami Besador", "Gurami del Amor"],
+    "en": ["Kissing gourami"]
+  },
+  "family": "Helostomatidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 120,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.8,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "all",
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "melanotaenia-trifasciata",
+  "scientific_name": "Melanotaenia trifasciata",
+  "common_names": {
+    "es": ["Arco Iris Joya", "Arco Iris Rayado"],
+    "en": []
+  },
+  "family": "Melanotaeniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.2,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 16
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

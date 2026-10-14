@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "beaufortia-leveretti",
+  "scientific_name": "Beaufortia leveretti",
+  "common_names": {
+    "es": ["Come Algas Chino", "Locha de Torrente"],
+    "en": []
+  },
+  "family": "Balitoridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 120,
+  "temperature_c": {
+    "min": 18,
+    "max": 24
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 6,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

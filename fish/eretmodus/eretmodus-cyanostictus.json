@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "eretmodus-cyanostictus",
+  "scientific_name": "Eretmodus cyanostictus",
+  "common_names": {
+    "es": ["Cara Caballo", "Gobio Rayado", "Payaso del Tanganyika"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9,
+  "min_tank_liters": 100,
+  "temperature_c": null,
+  "ph": {
+    "min": 8.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 12,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": "bottom",
+  "schooling_min": 2,
+  "diet": "herbivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

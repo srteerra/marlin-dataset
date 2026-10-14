@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pelvicachromis-pulcher",
+  "scientific_name": "Pelvicachromis pulcher",
+  "common_names": {
+    "es": ["Cíclido Kribensis", "Cíclido Púrpura", "Krib"],
+    "en": ["Kribensis"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 14
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

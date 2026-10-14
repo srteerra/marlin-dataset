@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pethia-conchonius",
+  "scientific_name": "Pethia conchonius",
+  "common_names": {
+    "es": ["Barbo Rosado"],
+    "en": ["Rosy barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 18,
+    "max": 27
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Puntius conchonius.",
+  "sources": [],
+  "status": "draft"
+}

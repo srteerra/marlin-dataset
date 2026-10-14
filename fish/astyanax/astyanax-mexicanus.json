@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "astyanax-mexicanus",
+  "scientific_name": "Astyanax mexicanus",
+  "common_names": {
+    "es": ["Tetra Mexicano"],
+    "en": ["Mexican tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 21,
+    "max": 27
+  },
+  "ph": {
+    "min": 7,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 12
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 10,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "xiphophorus-hellerii",
+  "scientific_name": "Xiphophorus hellerii",
+  "common_names": {
+    "es": ["Pez Espada", "Cola de Espada", "Xipho"],
+    "en": ["Green swordtail"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 16,
+  "min_tank_liters": 120,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 15,
+    "max": 30
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

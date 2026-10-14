@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "poecilia-wingei",
+  "scientific_name": "Poecilia wingei",
+  "common_names": {
+    "es": ["Endler", "Guppy Endler"],
+    "en": ["Endler's livebearer"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 20,
+    "max": 24
+  },
+  "ph": {
+    "min": 6.8,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "crossocheilus-siamensis",
+  "scientific_name": "Crossocheilus siamensis",
+  "common_names": {
+    "es": ["Come Algas Siamés", "Zorro Siamés", "Zorro Volador Siamés"],
+    "en": ["Siamese algae eater"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "herbivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

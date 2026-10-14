@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hemigrammus-rhodostomus",
+  "scientific_name": "Hemigrammus rhodostomus",
+  "common_names": {
+    "es": ["Borrachito", "Tetra Borracho", "Tetra de Hocico Rojo"],
+    "en": ["Rummy-nose tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 12,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

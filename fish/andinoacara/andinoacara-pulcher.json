@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "andinoacara-pulcher",
+  "scientific_name": "Andinoacara pulcher",
+  "common_names": {
+    "es": ["Acara Azúl", "Cocobolo", "Mochoroca"],
+    "en": ["Blue acara"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 16
+  },
+  "temperament": "peaceful",
+  "swim_zone": "all",
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichopsis-pumila",
+  "scientific_name": "Trichopsis pumila",
+  "common_names": {
+    "es": ["Gurami Enano", "Gurami Pigmeo", "Gurami Croador"],
+    "en": ["Sparkling gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 40,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 5.8,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

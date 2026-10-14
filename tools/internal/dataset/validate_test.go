@@ -58,7 +58,6 @@ func TestValidateRejectsInvalidFiles(t *testing.T) {
 	}{
 		{folder: "extra-field", wantReason: "color"},
 		{folder: "wrong-schema-reference", wantField: "$schema"},
-		{folder: "image-not-pixabay", wantField: "images.0.url"},
 		{folder: "missing-required", wantReason: "status"},
 		{folder: "negative-size", wantField: "adult_size_cm"},
 		{folder: "bad-json", wantReason: reasonInvalidJSON},
@@ -71,7 +70,6 @@ func TestValidateRejectsInvalidFiles(t *testing.T) {
 		{folder: "temperature-out-of-bounds", wantField: "temperature_c", wantReason: reasonOutOfBounds},
 		{folder: "reviewed-without-sources", wantField: "sources", wantReason: reasonReviewedWithoutSources},
 		{folder: "duplicate-id", wantField: "id", wantReason: reasonDuplicateID},
-		{folder: "unknown-reference", wantField: "incompatible_with.0.id", wantReason: reasonUnknownReference},
 	}
 	for _, testCase := range cases {
 		t.Run(testCase.folder, func(t *testing.T) {

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "brachygobius-xanthozona",
+  "scientific_name": "Brachygobius xanthozona",
+  "common_names": {
+    "es": ["Gobio Avispa", "Pez Avispa"],
+    "en": ["Bumblebee goby"]
+  },
+  "family": "Gobiidae",
+  "water_type": "brackish",
+  "adult_size_cm": 4,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

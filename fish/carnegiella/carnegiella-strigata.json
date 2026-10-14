@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "carnegiella-strigata",
+  "scientific_name": "Carnegiella strigata",
+  "common_names": {
+    "es": ["Pechito de Mármol", "Pez Hacha de Mármol"],
+    "en": ["Marbled hatchetfish"]
+  },
+  "family": "Gasteropelecidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 25,
+    "max": 30
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": "top",
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

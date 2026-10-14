@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-eos",
+  "scientific_name": "Hyphessobrycon eos",
+  "common_names": {
+    "es": ["Tetra Amanecer"],
+    "en": []
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 75,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

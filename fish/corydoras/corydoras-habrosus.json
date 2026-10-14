@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-habrosus",
+  "scientific_name": "Corydoras habrosus",
+  "common_names": {
+    "es": ["Coridora Enana Manchada"],
+    "en": ["Salt and pepper corydoras"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4,
+  "min_tank_liters": 40,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 12,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

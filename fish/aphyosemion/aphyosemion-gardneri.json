@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aphyosemion-gardneri",
+  "scientific_name": "Aphyosemion gardneri",
+  "common_names": {
+    "es": ["Killi"],
+    "en": []
+  },
+  "family": "Aplocheilidae",
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 35,
+  "temperature_c": {
+    "min": 20,
+    "max": 24
+  },
+  "ph": null,
+  "hardness_dgh": null,
+  "temperament": null,
+  "swim_zone": "all",
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "botia-kubotai",
+  "scientific_name": "Botia kubotai",
+  "common_names": {
+    "es": ["Botia Angelicus", "Botia Nebulosa", "Locha de la Frontera Birmana"],
+    "en": []
+  },
+  "family": "Cobitidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

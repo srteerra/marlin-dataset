@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "maylandia-estherae",
+  "scientific_name": "Maylandia estherae",
+  "common_names": {
+    "es": ["Zebra Metangula", "Zebra Rojo"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 8,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 9,
+    "max": 16
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

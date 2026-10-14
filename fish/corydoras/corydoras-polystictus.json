@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-polystictus",
+  "scientific_name": "Corydoras polystictus",
+  "common_names": {
+    "es": ["Corydora Multi-moteado"],
+    "en": []
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

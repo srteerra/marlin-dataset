@@ -53,12 +53,6 @@ body:
       required: true
 
   - type: textarea
-    id: images
-    attributes:
-      label: Images (optional)
-      description: Links to Pixabay pages that show this species, e.g. https://pixabay.com/photos/neon-tetra-1234567/. Please don't attach image files.
-
-  - type: textarea
     id: sources
     attributes:
       label: Sources

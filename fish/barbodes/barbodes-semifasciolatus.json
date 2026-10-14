@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "barbodes-semifasciolatus",
+  "scientific_name": "Barbodes semifasciolatus",
+  "common_names": {
+    "es": ["Barbo Dorado", "Barbo Schuberti"],
+    "en": ["Gold barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 16,
+    "max": 25
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 9
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Puntius semifasciolatus.",
+  "sources": [],
+  "status": "draft"
+}

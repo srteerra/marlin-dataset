@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cyprichromis-leptosoma",
+  "scientific_name": "Cyprichromis leptosoma",
+  "common_names": {
+    "es": ["Cypris", "Relámpago Azul", "Sardina de Colores"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 14,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 8,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 12,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

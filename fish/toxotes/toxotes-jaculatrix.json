@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "toxotes-jaculatrix",
+  "scientific_name": "Toxotes jaculatrix",
+  "common_names": {
+    "es": ["Pez Arquero"],
+    "en": ["Banded archerfish"]
+  },
+  "family": "Toxotidae",
+  "water_type": "brackish",
+  "adult_size_cm": 24,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 7,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 22
+  },
+  "temperament": null,
+  "swim_zone": "top",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

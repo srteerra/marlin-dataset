@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pygocentrus-nattereri",
+  "scientific_name": "Pygocentrus nattereri",
+  "common_names": {
+    "es": ["Piraña de Vientre Rojo", "Piraña Roja"],
+    "en": ["Red-bellied piranha"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 33,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "omnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

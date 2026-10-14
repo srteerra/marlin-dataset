@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aulonocara-baenschi",
+  "scientific_name": "Aulonocara baenschi",
+  "common_names": {
+    "es": ["Amarillo de Benga", "Amarillo Real", "Aulonocara Benga"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.5,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 25,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.2,
+    "max": 8.2
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

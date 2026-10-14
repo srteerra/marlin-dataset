@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "iriatherina-werneri",
+  "scientific_name": "Iriatherina werneri",
+  "common_names": {
+    "es": ["Arco Iris de Aleta Filamentosa", "Arcoíris de Aleta Hebra"],
+    "en": ["Threadfin rainbowfish"]
+  },
+  "family": "Melanotaeniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 22,
+    "max": 30
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 14
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

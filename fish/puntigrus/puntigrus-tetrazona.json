@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "puntigrus-tetrazona",
+  "scientific_name": "Puntigrus tetrazona",
+  "common_names": {
+    "es": ["Barbo de Sumatra", "Barbo Tigre", "Barbo Sumatrano"],
+    "en": ["Tiger barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Puntius tetrazona.",
+  "sources": [],
+  "status": "draft"
+}

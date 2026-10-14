@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "poecilia-velifera",
+  "scientific_name": "Poecilia velifera",
+  "common_names": {
+    "es": ["Latipinna", "Molly Velifera", "Molly de Vela"],
+    "en": ["Sailfin molly"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "brackish",
+  "adult_size_cm": 18,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 13,
+    "max": 35
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

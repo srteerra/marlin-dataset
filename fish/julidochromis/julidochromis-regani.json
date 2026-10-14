@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "julidochromis-regani",
+  "scientific_name": "Julidochromis regani",
+  "common_names": {
+    "es": ["Cíclido de Regan", "Julie Convicto"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 8,
+    "max": 9.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

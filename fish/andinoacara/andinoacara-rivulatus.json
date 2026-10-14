@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "andinoacara-rivulatus",
+  "scientific_name": "Andinoacara rivulatus",
+  "common_names": {
+    "es": ["Terror Verde", "Mojarra"],
+    "en": ["Green terror"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 300,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 18
+  },
+  "temperament": "aggressive",
+  "swim_zone": "all",
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Aequidens rivulatus.",
+  "sources": [],
+  "status": "draft"
+}

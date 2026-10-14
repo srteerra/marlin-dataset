@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudoplatystoma-corruscans",
+  "scientific_name": "Pseudoplatystoma corruscans",
+  "common_names": {
+    "es": ["Cambucu", "Surubí", "Surubí Pintado", "Mangrullo", "Moleque"],
+    "en": []
+  },
+  "family": "Pimelodidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 175,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 18,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": "bottom",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

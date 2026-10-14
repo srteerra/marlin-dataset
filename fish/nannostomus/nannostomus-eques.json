@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nannostomus-eques",
+  "scientific_name": "Nannostomus eques",
+  "common_names": {
+    "es": ["Pez Lápiz Eques", "Pez Lápiz Marrón"],
+    "en": []
+  },
+  "family": "Lebiasinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

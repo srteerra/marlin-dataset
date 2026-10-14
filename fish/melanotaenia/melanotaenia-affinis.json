@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "melanotaenia-affinis",
+  "scientific_name": "Melanotaenia affinis",
+  "common_names": {
+    "es": ["Arco Iris de Aletas Rojas", "Arco Iris de Nueva Guinea"],
+    "en": []
+  },
+  "family": "Melanotaeniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 18,
+    "max": 30
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

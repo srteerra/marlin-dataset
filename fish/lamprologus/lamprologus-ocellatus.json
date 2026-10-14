@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "lamprologus-ocellatus",
+  "scientific_name": "Lamprologus ocellatus",
+  "common_names": {
+    "es": ["Ocellatus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 23,
+    "max": 25
+  },
+  "ph": {
+    "min": 8,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 9,
+    "max": 18
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "bottom",
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

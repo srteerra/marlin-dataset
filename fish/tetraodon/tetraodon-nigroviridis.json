@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "tetraodon-nigroviridis",
+  "scientific_name": "Tetraodon nigroviridis",
+  "common_names": {
+    "es": ["Pez Globo", "Puffer Verde", "Puffer Moteado"],
+    "en": ["Green spotted puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "brackish",
+  "adult_size_cm": 18,
+  "min_tank_liters": 150,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 9,
+    "max": 19
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

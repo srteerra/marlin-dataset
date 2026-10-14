@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-trilineatus",
+  "scientific_name": "Corydoras trilineatus",
+  "common_names": {
+    "es": ["Corydora de Tres Bandas", "Coridora de Tres Líneas"],
+    "en": ["Three-stripe corydoras"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gnathonemus-petersii",
+  "scientific_name": "Gnathonemus petersii",
+  "common_names": {
+    "es": ["Pez Elefante", "Nariz de Elefante de Peter"],
+    "en": ["Elephantnose fish"]
+  },
+  "family": "Mormyridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 34,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 10
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

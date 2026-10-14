@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "mikrogeophagus-altispinosus",
+  "scientific_name": "Mikrogeophagus altispinosus",
+  "common_names": {
+    "es": ["Ramírez Boliviano", "Ramirezi Boliviano", "Rubí Payaso"],
+    "en": ["Bolivian ram"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 7,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

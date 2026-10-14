@@ -30,7 +30,6 @@ func Validate(datasetDir, schemaPath string) (Result, error) {
 		}
 	}
 	result.Issues = append(result.Issues, duplicateIssues(result.Records)...)
-	result.Issues = append(result.Issues, referenceIssues(result.Records)...)
 	sortIssues(result.Issues)
 	return result, nil
 }

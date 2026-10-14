@@ -27,18 +27,5 @@
     "max": 10
   },
   "schooling_min": 6,
-  "incompatible_with": [
-    {
-      "id": "testus-beta",
-      "reason": "Fictional reason."
-    }
-  ],
-  "images": [
-    {
-      "url": "https://pixabay.com/photos/example-0000000/",
-      "author": "Example",
-      "license": "pixabay"
-    }
-  ],
   "notes": "Test text."
 }

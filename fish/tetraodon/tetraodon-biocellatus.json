@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "tetraodon-biocellatus",
+  "scientific_name": "Tetraodon biocellatus",
+  "common_names": {
+    "es": ["Pez Globo de Agua Dulce", "Pez Globo Ocelado", "Puffer Figura 8"],
+    "en": ["Figure-eight puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": "all",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

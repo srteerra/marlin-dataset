@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "symphysodon-discus",
+  "scientific_name": "Symphysodon discus",
+  "common_names": {
+    "es": ["Disco de Heckel"],
+    "en": ["Heckel discus"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 40,
+  "temperature_c": {
+    "min": 26,
+    "max": 30
+  },
+  "ph": {
+    "min": 5,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 9
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 3,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

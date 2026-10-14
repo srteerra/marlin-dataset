@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "sahyadria-denisonii",
+  "scientific_name": "Sahyadria denisonii",
+  "common_names": {
+    "es": ["Barbo de Denison", "Barbo de Línea Roja", "Torpedo de Línea Roja"],
+    "en": ["Denison barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 150,
+  "temperature_c": {
+    "min": 16,
+    "max": 25
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Puntius denisonii.",
+  "sources": [],
+  "status": "draft"
+}

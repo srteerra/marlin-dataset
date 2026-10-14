@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "paracheirodon-simulans",
+  "scientific_name": "Paracheirodon simulans",
+  "common_names": {
+    "es": ["Tetra Falso Neón", "Tetra Neón Verde"],
+    "en": ["Green neon tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.5,
+  "min_tank_liters": 45,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 4,
+    "max": 6.5
+  },
+  "hardness_dgh": null,
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

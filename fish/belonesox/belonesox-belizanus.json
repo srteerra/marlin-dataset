@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "belonesox-belizanus",
+  "scientific_name": "Belonesox belizanus",
+  "common_names": {
+    "es": ["Picudito", "Pepesca Gaspar"],
+    "en": []
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 26,
+    "max": 30
+  },
+  "ph": {
+    "min": 6.8,
+    "max": 8.2
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

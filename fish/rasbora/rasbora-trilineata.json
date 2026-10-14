@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rasbora-trilineata",
+  "scientific_name": "Rasbora trilineata",
+  "common_names": {
+    "es": ["Rasbora de Tres Líneas", "Rasbora Tijerita"],
+    "en": ["Scissortail rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

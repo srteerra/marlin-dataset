@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "yasuhikotakia-sidthimunki",
+  "scientific_name": "Yasuhikotakia sidthimunki",
+  "common_names": {
+    "es": ["Locha Ajedrezada", "Locha Enana", "Locha Encadenada"],
+    "en": ["Dwarf chain loach"]
+  },
+  "family": "Cobitidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 100,
+  "temperature_c": {
+    "min": 25,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 8
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

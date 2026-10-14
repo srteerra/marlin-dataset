@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichopodus-trichopterus",
+  "scientific_name": "Trichopodus trichopterus",
+  "common_names": {
+    "es": ["Gourami Azul", "Gourami de Tres Manchas", "Gurami Dorado"],
+    "en": ["Three spot gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 200,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 18
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "top",
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Trichogaster trichopterus.",
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "amatitlania-nigrofasciata",
+  "scientific_name": "Amatitlania nigrofasciata",
+  "common_names": {
+    "es": ["Cíclido Cebra", "Cíclido Convicto"],
+    "en": ["Convict cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 12
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "bottom",
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Archocentrus nigrofasciatus.",
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cyprinus-carpio",
+  "scientific_name": "Cyprinus carpio",
+  "common_names": {
+    "es": ["Pez Koi", "Carpa Común", "Carpa Koi"],
+    "en": ["Common carp", "Koi"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 80,
+  "min_tank_liters": 400,
+  "temperature_c": {
+    "min": 12,
+    "max": 14
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "boraras-brigittae",
+  "scientific_name": "Boraras brigittae",
+  "common_names": {
+    "es": ["Boraras", "Mosquito"],
+    "en": ["Chili rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 45,
+  "temperature_c": {
+    "min": 25,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichopsis-vittata",
+  "scientific_name": "Trichopsis vittata",
+  "common_names": {
+    "es": ["Gurami Gruñón", "Gurami Croador"],
+    "en": ["Croaking gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 6
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

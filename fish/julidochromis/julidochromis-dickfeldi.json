@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "julidochromis-dickfeldi",
+  "scientific_name": "Julidochromis dickfeldi",
+  "common_names": {
+    "es": ["Brown Julie"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 50,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 8,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "bottom",
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

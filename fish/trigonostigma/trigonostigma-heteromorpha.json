@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trigonostigma-heteromorpha",
+  "scientific_name": "Trigonostigma heteromorpha",
+  "common_names": {
+    "es": ["Arlequín", "Arlequín Rasbora", "Rasbora Roja"],
+    "en": ["Harlequin rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 23,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

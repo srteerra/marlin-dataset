@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "tanichthys-albonubes",
+  "scientific_name": "Tanichthys albonubes",
+  "common_names": {
+    "es": ["Neón Agua Fría", "Neón Chino", "Neón del Pobre"],
+    "en": ["White Cloud Mountain minnow"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 12,
+    "max": 22
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 10,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

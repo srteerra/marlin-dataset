@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "astronotus-ocellatus",
+  "scientific_name": "Astronotus ocellatus",
+  "common_names": {
+    "es": ["Oscar", "Pavón Copaneca", "Oscar Tigre"],
+    "en": ["Oscar"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 35,
+  "min_tank_liters": 300,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": "all",
+  "schooling_min": 5,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

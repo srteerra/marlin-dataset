@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gyrinocheilus-aymonieri",
+  "scientific_name": "Gyrinocheilus aymonieri",
+  "common_names": {
+    "es": ["Chupa Algas Chino", "Pez Ventosa"],
+    "en": ["Chinese algae eater"]
+  },
+  "family": "Gyrinocheilidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": "bottom",
+  "schooling_min": null,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

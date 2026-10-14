@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "ancistrus-triradiatus",
+  "scientific_name": "Ancistrus triradiatus",
+  "common_names": {
+    "es": ["Ancistrus Común", "Cucha Barbuda"],
+    "en": []
+  },
+  "family": "Loricariidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 14,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 29
+  },
+  "ph": {
+    "min": 5.8,
+    "max": 7.4
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": "bottom",
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

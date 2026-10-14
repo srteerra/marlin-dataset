@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "inpaichthys-kerri",
+  "scientific_name": "Inpaichthys kerri",
+  "common_names": {
+    "es": ["Falso Tetra Emperador", "Tetra Emperador Azul", "Tetra Kerri"],
+    "en": []
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 46,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

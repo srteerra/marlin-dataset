@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "epalzeorhynchos-kalopterus",
+  "scientific_name": "Epalzeorhynchos kalopterus",
+  "common_names": {
+    "es": ["Zorro Volador", "Zorro Volador Siamés"],
+    "en": ["Flying fox"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 14,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 10
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

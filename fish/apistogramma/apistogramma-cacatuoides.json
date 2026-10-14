@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "apistogramma-cacatuoides",
+  "scientific_name": "Apistogramma cacatuoides",
+  "common_names": {
+    "es": ["Cacatúa", "Cíclido Enano Cacatúa"],
+    "en": ["Cockatoo dwarf cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9,
+  "min_tank_liters": 60,
+  "temperature_c": {
+    "min": 25,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 15
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "kryptopterus-minor",
+  "scientific_name": "Kryptopterus minor",
+  "common_names": {
+    "es": ["Bicirrhis", "Cristal de Java", "Pez Gato de Cristal", "Pez Vidrio", "Siluro de Cristal"],
+    "en": ["Glass catfish"]
+  },
+  "family": "Siluridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 80,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 6,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": "middle",
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

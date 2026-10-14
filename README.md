@@ -2,7 +2,7 @@
 
 An open dataset of **aquarium fish**, one JSON file per species. It is the source of truth for a platform that helps people get started with fishkeeping.
 
-> **Status: early.** There are 3 test species (`status: draft`, no sources). **They are not reliable data yet.**
+> **Status: early.** There are 180 freshwater species, all `status: draft`: their values come from a single hobbyist source and have not been reviewed by a person yet. **Do not show them to end users as verified data.**
 
 ## What's inside
 
@@ -20,7 +20,6 @@ Example: [`fish/paracheirodon/paracheirodon-innesi.json`](fish/paracheirodon/par
 - `null` means "not known with certainty". It is never filled with an approximate value.
 - `status: draft` = not reviewed; `status: reviewed` = verified by a person and backed by sources.
 - Common names are provided in Spanish (`es`, required) and English (`en`).
-- `images` holds **links** to images on Pixabay, never the files themselves. Those images are under the [Pixabay Content License](https://pixabay.com/service/license-summary/), not MIT: if you display them, download them through the Pixabay API and host them yourself.
 
 ## Using the data
 
@@ -52,4 +51,4 @@ This project follows a [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-Everything in this repository (data, schema, documentation and code) is licensed under the [MIT License](LICENSE). Images linked from `images` are not part of the repository and keep their own license.
+Everything in this repository (data, schema, documentation and code) is licensed under the [MIT License](LICENSE).

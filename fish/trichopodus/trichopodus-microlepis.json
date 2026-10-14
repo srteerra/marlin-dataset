@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichopodus-microlepis",
+  "scientific_name": "Trichopodus microlepis",
+  "common_names": {
+    "es": ["Gourami del Claro de Luna", "Gourami Luz de Luna"],
+    "en": ["Moonlight gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 150,
+  "temperature_c": {
+    "min": 24,
+    "max": 29
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 2,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Trichogaster microlepis.",
+  "sources": [],
+  "status": "draft"
+}

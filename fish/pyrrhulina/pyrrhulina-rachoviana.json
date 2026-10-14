@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pyrrhulina-rachoviana",
+  "scientific_name": "Pyrrhulina rachoviana",
+  "common_names": {
+    "es": ["Pirulinas", "Pirrulina"],
+    "en": []
+  },
+  "family": "Lebiasinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.9,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 18,
+    "max": 22
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": "top",
+  "schooling_min": 5,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cichla-intermedia",
+  "scientific_name": "Cichla intermedia",
+  "common_names": {
+    "es": ["Pavón Real"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 55,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 26,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 8
+  },
+  "temperament": null,
+  "swim_zone": "all",
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}
