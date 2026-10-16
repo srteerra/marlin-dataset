@@ -1,8 +1,6 @@
 # marlin-dataset
 
-An open dataset of **aquarium fish**, one JSON file per species. It is the source of truth for a platform that helps people get started with fishkeeping.
-
-> **Status: early.** There are 180 freshwater species, all `status: draft`: their values come from a single hobbyist source and have not been reviewed by a person yet. **Do not show them to end users as verified data.**
+An open dataset of **aquarium fish**.
 
 ## What's inside
 
