@@ -4,6 +4,9 @@ tools/*.exe
 *.test
 *.out
 
+# Release bundles, built by CI
+dist/
+
 # Local environment
 .env
 .env.*
