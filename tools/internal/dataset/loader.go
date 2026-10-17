@@ -53,7 +53,7 @@ func loadRecord(schema *jsonschema.Schema, datasetDir, path string) (*Record, []
 	if err != nil || len(issues) > 0 {
 		return nil, issues, err
 	}
-	record := Record{Path: path}
+	record := Record{Path: path, Raw: raw}
 	if err := json.Unmarshal(raw, &record.Species); err != nil {
 		return nil, nil, fmt.Errorf("%s: %w", path, err)
 	}

@@ -1,4 +1,4 @@
-// Command marlin-dataset validates the fish dataset.
+// Command marlin-dataset validates the fish dataset and bundles it for releases.
 package main
 
 import (
@@ -17,9 +17,11 @@ const usage = `usage: go run . <command> [options] <fish-dir>
 
 commands:
   validate   validate every file in the dataset
+  bundle     validate, then write fish.json and fish.min.json for a release
 
-example:
-  go run . validate ../fish`
+examples:
+  go run . validate ../fish
+  go run . bundle --version v2026.10.0 ../fish`
 
 // main runs the CLI and exits with its status code.
 func main() {
@@ -35,6 +37,8 @@ func run(args []string) int {
 	switch args[0] {
 	case "validate":
 		return runValidate(args[1:])
+	case "bundle":
+		return runBundle(args[1:])
 	default:
 		fmt.Fprintf(os.Stderr, "unknown command %q\n\n%s\n", args[0], usage)
 		return exitUsage

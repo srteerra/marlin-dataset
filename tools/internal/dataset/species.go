@@ -1,5 +1,7 @@
 package dataset
 
+import "encoding/json"
+
 // Status values allowed in the dataset.
 const (
 	StatusDraft    = "draft"
@@ -24,7 +26,9 @@ type Species struct {
 }
 
 // Record is a species loaded from disk.
+// Raw keeps the file as written, so the bundle carries every field, not only the ones in Species.
 type Record struct {
 	Path    string
 	Species Species
+	Raw     json.RawMessage
 }

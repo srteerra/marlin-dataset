@@ -34,7 +34,12 @@ func resolveSchemaPath(datasetDir, override string) string {
 	if override != "" {
 		return override
 	}
-	return filepath.Join(filepath.Dir(filepath.Clean(datasetDir)), defaultSchemaFile)
+	return datasetSibling(datasetDir, defaultSchemaFile)
+}
+
+// datasetSibling resolves a path relative to the parent of the dataset folder.
+func datasetSibling(datasetDir, relativePath string) string {
+	return filepath.Join(filepath.Dir(filepath.Clean(datasetDir)), relativePath)
 }
 
 // validateDataset runs the validation, prints every issue and reports success.
