@@ -1,0 +1,53 @@
+name: release
+
+# Publishes a release with the whole dataset after every merge that changes the data.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "fish/**"
+      - "schema/**"
+
+# Creating tags and releases needs write access, so it lives apart from validate.yml.
+permissions:
+  contents: write
+
+# Merges close together run one after another, so two runs never compute the same tag.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history, so existing tags are visible
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: tools/go.mod
+          cache-dependency-path: tools/go.sum
+
+      # vYYYY.MM.N: N starts at 0 every month and grows by one per release.
+      - name: Compute version
+        id: version
+        run: |
+          prefix="v$(date -u +%Y.%m)."
+          last=$(git tag --list "${prefix}*" | sed "s/^v[0-9]*\.[0-9]*\.//" | sort -n | tail -n 1)
+          echo "value=${prefix}$(( ${last:--1} + 1 ))" >> "$GITHUB_OUTPUT"
+
+      - name: Build bundle
+        working-directory: tools
+        run: go run . bundle --version "${{ steps.version.outputs.value }}" ../fish
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.value }}
+        run: |
+          gh release create "$VERSION" dist/fish.json dist/fish.min.json \
+            --target "$GITHUB_SHA" \
+            --title "$VERSION" \
+            --generate-notes
