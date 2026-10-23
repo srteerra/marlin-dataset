@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "callochromis-macrops",
+  "scientific_name": "Callochromis macrops",
+  "common_names": {
+    "es": ["Callochromis macrops"],
+    "en": ["Big-eyed Mouthbrooder"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13.5,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.8,
+    "max": 9.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 30
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/callochromis-macrops/"],
+  "status": "draft"
+}

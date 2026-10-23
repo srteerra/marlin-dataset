@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "channa-bleheri",
+  "scientific_name": "Channa bleheri",
+  "common_names": {
+    "es": ["Channa bleheri"],
+    "en": ["Rainbow snakehead"]
+  },
+  "family": "Channidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 17,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 14,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/channa-bleheri/"],
+  "status": "draft"
+}
