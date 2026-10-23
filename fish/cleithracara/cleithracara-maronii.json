@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cleithracara-maronii",
+  "scientific_name": "Cleithracara maronii",
+  "common_names": {
+    "es": ["Cleithracara maronii"],
+    "en": ["Keyhole Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 21,
+    "max": 28
+  },
+  "ph": {
+    "min": 4,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/cleithracara-maronii/"],
+  "status": "draft"
+}
