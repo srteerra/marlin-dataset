@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-davidsandsi",
+  "scientific_name": "Corydoras davidsandsi",
+  "common_names": {
+    "es": ["Corydoras davidsandsi"],
+    "en": ["Sand's Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Placed in Hoplisoma davidsandsi by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/hoplisoma-davidsandsi/"],
+  "status": "draft"
+}

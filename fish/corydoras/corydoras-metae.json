@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-metae",
+  "scientific_name": "Corydoras metae",
+  "common_names": {
+    "es": ["Corydoras metae"],
+    "en": ["Bandit Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Placed in Hoplisoma metae by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/hoplisoma-metae/"],
+  "status": "draft"
+}

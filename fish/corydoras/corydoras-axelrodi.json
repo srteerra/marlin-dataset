@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-axelrodi",
+  "scientific_name": "Corydoras axelrodi",
+  "common_names": {
+    "es": ["Corydoras axelrodi"],
+    "en": ["Axelrod's Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Placed in Hoplisoma axelrodi by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/hoplisoma-axelrodi/"],
+  "status": "draft"
+}
