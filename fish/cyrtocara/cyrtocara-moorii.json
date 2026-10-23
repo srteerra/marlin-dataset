@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cyrtocara-moorii",
+  "scientific_name": "Cyrtocara moorii",
+  "common_names": {
+    "es": ["Cyrtocara moorii"],
+    "en": ["Malawi Blue Dolphin"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 257,
+  "temperature_c": {
+    "min": 25,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/cyrtocara-moorii/"],
+  "status": "draft"
+}
