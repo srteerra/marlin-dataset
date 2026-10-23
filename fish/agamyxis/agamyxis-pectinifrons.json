@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "agamyxis-pectinifrons",
+  "scientific_name": "Agamyxis pectinifrons",
+  "common_names": {
+    "es": ["Agamyxis pectinifrons"],
+    "en": ["Spotted Talking Catfish"]
+  },
+  "family": "Doradidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/agamyxis-pectinifrons/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "apistogramma-norberti",
+  "scientific_name": "Apistogramma norberti",
+  "common_names": {
+    "es": ["Apistogramma norberti"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 4.5,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 3
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/apistogramma-norberti/"],
+  "status": "draft"
+}

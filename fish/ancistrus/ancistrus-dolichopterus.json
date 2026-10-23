@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "ancistrus-dolichopterus",
+  "scientific_name": "Ancistrus dolichopterus",
+  "common_names": {
+    "es": ["Ancistrus dolichopterus"],
+    "en": ["L183"]
+  },
+  "family": "Loricariidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 26,
+    "max": 30
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/ancistrus-dolichopterus/"],
+  "status": "draft"
+}

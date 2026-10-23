@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "axelrodia-riesei",
+  "scientific_name": "Axelrodia riesei",
+  "common_names": {
+    "es": ["Axelrodia riesei"],
+    "en": ["Ruby Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 4,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/axelrodia-riesei/"],
+  "status": "draft"
+}

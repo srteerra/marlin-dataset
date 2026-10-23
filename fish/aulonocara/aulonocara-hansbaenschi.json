@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aulonocara-hansbaenschi",
+  "scientific_name": "Aulonocara hansbaenschi",
+  "common_names": {
+    "es": ["Aulonocara hansbaenschi"],
+    "en": ["Red Shoulder Peacock"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 182,
+  "temperature_c": {
+    "min": 24,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.4,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/aulonocara-hansbaenschi/"],
+  "status": "draft"
+}

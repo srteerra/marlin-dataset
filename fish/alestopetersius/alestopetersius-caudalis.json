@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "alestopetersius-caudalis",
+  "scientific_name": "Alestopetersius caudalis",
+  "common_names": {
+    "es": ["Alestopetersius caudalis"],
+    "en": ["Yellow-Tailed Congo Tetra"]
+  },
+  "family": "Alestidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/alestopetersius-caudalis/"
+  ],
+  "status": "draft"
+}
