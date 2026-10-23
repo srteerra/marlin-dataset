@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "boraras-merah",
+  "scientific_name": "Boraras merah",
+  "common_names": {
+    "es": ["Boraras merah"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 4,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/boraras-merah/"],
+  "status": "draft"
+}

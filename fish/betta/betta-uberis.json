@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "betta-uberis",
+  "scientific_name": "Betta uberis",
+  "common_names": {
+    "es": ["Betta uberis"],
+    "en": []
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 4,
+    "max": 6
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/betta-uberis/"],
+  "status": "draft"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "brycinus-longipinnis",
+  "scientific_name": "Brycinus longipinnis",
+  "common_names": {
+    "es": ["Brycinus longipinnis"],
+    "en": ["Long-finned Tetra"]
+  },
+  "family": "Alestidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12.5,
+  "min_tank_liters": 137,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 19
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Bryconalestes longipinnis by a recent revision; kept under Brycinus for now to match the rest of the dataset.",
+  "sources": [
+    "https://www.seriouslyfish.com/species/bryconalestes-longipinnis/"
+  ],
+  "status": "draft"
+}

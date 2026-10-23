@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "bedotia-madagascariensis",
+  "scientific_name": "Bedotia madagascariensis",
+  "common_names": {
+    "es": ["Bedotia madagascariensis"],
+    "en": ["Madagascan Rainbow Fish"]
+  },
+  "family": "Bedotiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 23,
+    "max": 32
+  },
+  "ph": {
+    "min": 4.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/bedotia-madagascariensis/"
+  ],
+  "status": "draft"
+}

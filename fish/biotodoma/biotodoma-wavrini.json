@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "biotodoma-wavrini",
+  "scientific_name": "Biotodoma wavrini",
+  "common_names": {
+    "es": ["Biotodoma wavrini"],
+    "en": ["Orinoco Eartheater"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 304,
+  "temperature_c": {
+    "min": 20,
+    "max": 30
+  },
+  "ph": {
+    "min": 4,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/biotodoma-wavrini/"],
+  "status": "draft"
+}

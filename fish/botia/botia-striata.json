@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "botia-striata",
+  "scientific_name": "Botia striata",
+  "common_names": {
+    "es": ["Botia striata"],
+    "en": ["Zebra Loach"]
+  },
+  "family": "Botiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 21,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/botia-striata/"],
+  "status": "draft"
+}

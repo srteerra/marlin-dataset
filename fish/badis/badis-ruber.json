@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "badis-ruber",
+  "scientific_name": "Badis ruber",
+  "common_names": {
+    "es": ["Badis ruber"],
+    "en": ["Burmese Badis"]
+  },
+  "family": "Badidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 15,
+    "max": 25
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/badis-ruber/"],
+  "status": "draft"
+}

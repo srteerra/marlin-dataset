@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "baryancistrus-xanthellus",
+  "scientific_name": "Baryancistrus xanthellus",
+  "common_names": {
+    "es": ["Baryancistrus xanthellus"],
+    "en": ["Gold Nugget Pleco"]
+  },
+  "family": "Loricariidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 22.4,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 27,
+    "max": 32
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/baryancistrus-xanthellus/"
+  ],
+  "status": "draft"
+}
