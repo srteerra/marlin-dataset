@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pangio-oblonga",
+  "scientific_name": "Pangio oblonga",
+  "common_names": {
+    "es": ["Pangio oblonga"],
+    "en": ["Black Kuhli Loach"]
+  },
+  "family": "Cobitidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 21,
+    "max": 26
+  },
+  "ph": {
+    "min": 3.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pangio-oblonga/"],
+  "status": "draft"
+}
