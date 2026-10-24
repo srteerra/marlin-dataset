@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nothobranchius-rachovii",
+  "scientific_name": "Nothobranchius rachovii",
+  "common_names": {
+    "es": ["Nothobranchius rachovii"],
+    "en": ["Bluefin Nothobranch"]
+  },
+  "family": "Nothobranchiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5.5,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 20,
+    "max": 24
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 10
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/nothobranchius-rachovii/"],
+  "status": "draft"
+}
