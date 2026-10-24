@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "parosphromenus-deissneri",
+  "scientific_name": "Parosphromenus deissneri",
+  "common_names": {
+    "es": ["Parosphromenus deissneri"],
+    "en": ["Deissner's Liquorice Gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4,
+  "min_tank_liters": 16,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 3,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 4
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/parosphromenus-deissneri/"
+  ],
+  "status": "draft"
+}

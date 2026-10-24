@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "paracanthocobitis-botia",
+  "scientific_name": "Paracanthocobitis botia",
+  "common_names": {
+    "es": ["Paracanthocobitis botia"],
+    "en": ["Zipper Loach"]
+  },
+  "family": "Nemacheilidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15.2,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 21,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Acanthocobitis botia.",
+  "sources": ["https://www.seriouslyfish.com/species/paracanthocobitis-botia/"],
+  "status": "draft"
+}
