@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "homaloptera-orthogoniata",
+  "scientific_name": "Homaloptera orthogoniata",
+  "common_names": {
+    "es": ["Homaloptera orthogoniata"],
+    "en": ["Saddle-back Loach"]
+  },
+  "family": "Balitoridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9.5,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 20,
+    "max": 25.5
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/homaloptera-orthogoniata/"
+  ],
+  "status": "draft"
+}

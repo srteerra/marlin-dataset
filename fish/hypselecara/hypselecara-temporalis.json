@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hypselecara-temporalis",
+  "scientific_name": "Hypselecara temporalis",
+  "common_names": {
+    "es": ["Hypselecara temporalis"],
+    "en": ["Chocolate Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 25,
+    "max": 30
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/hypselecara-temporalis/"],
+  "status": "draft"
+}
