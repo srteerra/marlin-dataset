@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "oryzias-latipes",
+  "scientific_name": "Oryzias latipes",
+  "common_names": {
+    "es": ["Oryzias latipes"],
+    "en": ["Medaka"]
+  },
+  "family": "Adrianichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 16,
+    "max": 22
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/oryzias-latipes/"],
+  "status": "draft"
+}
