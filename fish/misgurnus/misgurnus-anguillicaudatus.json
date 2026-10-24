@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "misgurnus-anguillicaudatus",
+  "scientific_name": "Misgurnus anguillicaudatus",
+  "common_names": {
+    "es": ["Misgurnus anguillicaudatus"],
+    "en": ["Oriental Weather Loach"]
+  },
+  "family": "Cobitidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 28,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 18,
+    "max": 23
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/"
+  ],
+  "status": "draft"
+}

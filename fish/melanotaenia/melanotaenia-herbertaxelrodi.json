@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "melanotaenia-herbertaxelrodi",
+  "scientific_name": "Melanotaenia herbertaxelrodi",
+  "common_names": {
+    "es": ["Melanotaenia herbertaxelrodi"],
+    "en": ["Lake Tebera Rainbowfish"]
+  },
+  "family": "Melanotaeniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/melanotaenia-herbertaxelrodi/"
+  ],
+  "status": "draft"
+}

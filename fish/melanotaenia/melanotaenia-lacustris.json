@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "melanotaenia-lacustris",
+  "scientific_name": "Melanotaenia lacustris",
+  "common_names": {
+    "es": ["Melanotaenia lacustris"],
+    "en": ["Lake Kutubu Rainbowfish"]
+  },
+  "family": "Melanotaeniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 7,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/melanotaenia-lacustris/"],
+  "status": "draft"
+}

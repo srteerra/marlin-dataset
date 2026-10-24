@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "moenkhausia-pittieri",
+  "scientific_name": "Moenkhausia pittieri",
+  "common_names": {
+    "es": ["Tetra diamante"],
+    "en": ["Diamond Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": "Placed in Makunaima pittieri by a recent revision; kept under Moenkhausia for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/makunaima-pittieri/"],
+  "status": "draft"
+}

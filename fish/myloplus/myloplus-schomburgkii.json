@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "myloplus-schomburgkii",
+  "scientific_name": "Myloplus schomburgkii",
+  "common_names": {
+    "es": ["Myloplus schomburgkii"],
+    "en": ["Black-barred Myleus"]
+  },
+  "family": "Serrasalmidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 173,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 10
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Myleus schomburgkii.",
+  "sources": ["https://www.seriouslyfish.com/species/myloplus-schomburgkii/"],
+  "status": "draft"
+}

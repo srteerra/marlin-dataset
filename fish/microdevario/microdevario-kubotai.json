@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "microdevario-kubotai",
+  "scientific_name": "Microdevario kubotai",
+  "common_names": {
+    "es": ["Microdevario kubotai"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 20,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/microdevario-kubotai/"],
+  "status": "draft"
+}

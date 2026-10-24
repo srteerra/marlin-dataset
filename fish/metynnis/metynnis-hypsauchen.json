@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "metynnis-hypsauchen",
+  "scientific_name": "Metynnis hypsauchen",
+  "common_names": {
+    "es": ["Metynnis hypsauchen"],
+    "en": ["Silver Dollar"]
+  },
+  "family": "Serrasalmidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 260,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 10
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/metynnis-hypsauchen/"],
+  "status": "draft"
+}
