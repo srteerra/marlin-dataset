@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "dicrossus-filamentosus",
+  "scientific_name": "Dicrossus filamentosus",
+  "common_names": {
+    "es": ["Dicrossus filamentosus"],
+    "en": ["Lyretail Checkerboard Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10.2,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 27,
+    "max": 30
+  },
+  "ph": {
+    "min": 5,
+    "max": 6.5
+  },
+  "hardness_dgh": null,
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/dicrossus-filamentosus/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "devario-aequipinnatus",
+  "scientific_name": "Devario aequipinnatus",
+  "common_names": {
+    "es": ["Devario aequipinnatus"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.5,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 16,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/devario-aequipinnatus/"],
+  "status": "draft"
+}

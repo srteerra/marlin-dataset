@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "dawkinsia-chalakkudiensis",
+  "scientific_name": "Dawkinsia chalakkudiensis",
+  "common_names": {
+    "es": ["Dawkinsia chalakkudiensis"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12.5,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 15,
+    "max": 25
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Sahyadria chalakkudiensis.",
+  "sources": [
+    "https://www.seriouslyfish.com/species/dawkinsia-chalakkudiensis/"
+  ],
+  "status": "draft"
+}

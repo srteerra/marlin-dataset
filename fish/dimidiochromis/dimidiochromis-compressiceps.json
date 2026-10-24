@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "dimidiochromis-compressiceps",
+  "scientific_name": "Dimidiochromis compressiceps",
+  "common_names": {
+    "es": ["Dimidiochromis compressiceps"],
+    "en": ["Malawi Eye-Biter"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 257,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/dimidiochromis-compressiceps/"
+  ],
+  "status": "draft"
+}
