@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "danio-albolineatus",
+  "scientific_name": "Danio albolineatus",
+  "common_names": {
+    "es": ["Danio albolineatus"],
+    "en": ["Pearl Danio"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5.5,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 16,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/danio-albolineatus/"],
+  "status": "draft"
+}
