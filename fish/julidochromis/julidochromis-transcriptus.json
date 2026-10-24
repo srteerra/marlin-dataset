@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "julidochromis-transcriptus",
+  "scientific_name": "Julidochromis transcriptus",
+  "common_names": {
+    "es": ["Julidochromis transcriptus"],
+    "en": ["Masked Julie"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": null,
+  "temperature_c": null,
+  "ph": null,
+  "hardness_dgh": null,
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/julidochromis-transcriptus/"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "ladigesia-roloffi",
+  "scientific_name": "Ladigesia roloffi",
+  "common_names": {
+    "es": ["Ladigesia roloffi"],
+    "en": ["Jelly Bean Tetra"]
+  },
+  "family": "Alestidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.1,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/ladigesia-roloffi/"],
+  "status": "draft"
+}

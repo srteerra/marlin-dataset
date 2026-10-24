@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "kryptopterus-vitreolus",
+  "scientific_name": "Kryptopterus vitreolus",
+  "common_names": {
+    "es": ["Pez gato de cristal"],
+    "en": ["Glass Catfish"]
+  },
+  "family": "Siluridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 4,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/kryptopterus-vitreolus/"],
+  "status": "draft"
+}
