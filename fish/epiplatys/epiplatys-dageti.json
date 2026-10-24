@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "epiplatys-dageti",
+  "scientific_name": "Epiplatys dageti",
+  "common_names": {
+    "es": ["Epiplatys dageti"],
+    "en": ["Red-chinned Panchax"]
+  },
+  "family": "Nothobranchiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 30
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/epiplatys-dageti/"],
+  "status": "draft"
+}

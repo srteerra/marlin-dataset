@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "geophagus-brasiliensis",
+  "scientific_name": "'Geophagus' brasiliensis",
+  "common_names": {
+    "es": ["'Geophagus' brasiliensis"],
+    "en": ["Pearl Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 304,
+  "temperature_c": {
+    "min": 18,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/geophagus-brasiliensis/"],
+  "status": "draft"
+}

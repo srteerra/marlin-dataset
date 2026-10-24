@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "geophagus-winemilleri",
+  "scientific_name": "Geophagus winemilleri",
+  "common_names": {
+    "es": ["Geophagus winemilleri"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 648,
+  "temperature_c": {
+    "min": 26,
+    "max": 30
+  },
+  "ph": {
+    "min": 4,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/geophagus-winemilleri/"],
+  "status": "draft"
+}

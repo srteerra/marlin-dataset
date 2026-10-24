@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gymnochanda-filamentosa",
+  "scientific_name": "Gymnochanda filamentosa",
+  "common_names": {
+    "es": ["Gymnochanda filamentosa"],
+    "en": []
+  },
+  "family": "Ambassidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.2,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 4,
+    "max": 6
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/gymnochanda-filamentosa/"],
+  "status": "draft"
+}
