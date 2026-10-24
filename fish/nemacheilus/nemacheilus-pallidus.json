@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nemacheilus-pallidus",
+  "scientific_name": "Nemacheilus pallidus",
+  "common_names": {
+    "es": ["Nemacheilus pallidus"],
+    "en": []
+  },
+  "family": "Nemacheilidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 23,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/nemacheilus-pallidus/"],
+  "status": "draft"
+}

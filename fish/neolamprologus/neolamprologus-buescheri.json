@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-buescheri",
+  "scientific_name": "Neolamprologus buescheri",
+  "common_names": {
+    "es": ["Neolamprologus buescheri"],
+    "en": ["Striped Lamprologus"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 103,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 8.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/neolamprologus-buescheri/"
+  ],
+  "status": "draft"
+}

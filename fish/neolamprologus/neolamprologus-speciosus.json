@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-speciosus",
+  "scientific_name": "Neolamprologus speciosus",
+  "common_names": {
+    "es": ["Neolamprologus speciosus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Lamprologus speciosus.",
+  "sources": [
+    "https://www.seriouslyfish.com/species/neolamprologus-speciosus/"
+  ],
+  "status": "draft"
+}
