@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "phalloceros-caudimaculatus",
+  "scientific_name": "Phalloceros caudimaculatus",
+  "common_names": {
+    "es": ["Madrecita de una mancha"],
+    "en": ["Dusky Millions Fish"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 16,
+    "max": 22
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/phalloceros-caudimaculatus/"
+  ],
+  "status": "draft"
+}

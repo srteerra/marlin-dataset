@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "dawkinsia-filamentosa",
+  "scientific_name": "Dawkinsia filamentosa",
+  "common_names": {
+    "es": ["Dawkinsia filamentosa"],
+    "en": ["Filament Barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/dawkinsia-filamentosa/"],
+  "status": "draft"
+}

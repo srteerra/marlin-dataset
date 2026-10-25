@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aphyosemion-bivittatum",
+  "scientific_name": "Aphyosemion bivittatum",
+  "common_names": {
+    "es": ["Aphyosemion bivittatum"],
+    "en": ["Two-Banded Lyretail"]
+  },
+  "family": "Nothobranchiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": null,
+  "temperature_c": null,
+  "ph": null,
+  "hardness_dgh": null,
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": null,
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/aphyosemion-bivittatum/"],
+  "status": "draft"
+}

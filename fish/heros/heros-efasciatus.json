@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "heros-efasciatus",
+  "scientific_name": "Heros efasciatus",
+  "common_names": {
+    "es": ["Heros efasciatus"],
+    "en": ["Severum"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 22.2,
+    "max": 28.9
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 8
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/heros-efasciatus/"],
+  "status": "draft"
+}

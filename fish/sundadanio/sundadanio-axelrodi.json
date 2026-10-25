@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "sundadanio-axelrodi",
+  "scientific_name": "Sundadanio axelrodi",
+  "common_names": {
+    "es": ["Sundadanio axelrodi"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.2,
+  "min_tank_liters": 12,
+  "temperature_c": {
+    "min": 23,
+    "max": 26
+  },
+  "ph": null,
+  "hardness_dgh": {
+    "min": 0,
+    "max": 5
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 20,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/sundadanio-axelrodi/"],
+  "status": "draft"
+}

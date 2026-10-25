@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "otopharynx-lithobates",
+  "scientific_name": "Otopharynx lithobates",
+  "common_names": {
+    "es": ["Otopharynx lithobates"],
+    "en": ["Sulphur-headed Hap"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 16,
+  "min_tank_liters": 154,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.6,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/otopharynx-lithobates/"],
+  "status": "draft"
+}

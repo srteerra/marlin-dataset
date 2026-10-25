@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gymnogeophagus-balzanii",
+  "scientific_name": "Gymnogeophagus balzanii",
+  "common_names": {
+    "es": ["Gymnogeophagus balzanii"],
+    "en": ["Paraguay Eartheater"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 21,
+    "max": 25
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/gymnogeophagus-balzanii/"],
+  "status": "draft"
+}

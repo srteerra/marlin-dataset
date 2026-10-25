@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "herichthys-carpintis",
+  "scientific_name": "Herichthys carpintis",
+  "common_names": {
+    "es": ["Herichthys carpintis"],
+    "en": ["Pearlscale Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30.5,
+  "min_tank_liters": 205,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 7,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 14
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/herichthys-carpintis/"],
+  "status": "draft"
+}

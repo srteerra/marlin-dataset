@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pterophyllum-altum",
+  "scientific_name": "Pterophyllum altum",
+  "common_names": {
+    "es": ["Pterophyllum altum"],
+    "en": ["Altum Angel"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 17.8,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 28,
+    "max": 32
+  },
+  "ph": {
+    "min": 4.8,
+    "max": 6.2
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 5
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pterophyllum-altum/"],
+  "status": "draft"
+}

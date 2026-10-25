@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "apistogramma-hongsloi",
+  "scientific_name": "Apistogramma hongsloi",
+  "common_names": {
+    "es": ["Apistogramma hongsloi"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 23,
+    "max": 29
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/apistogramma-hongsloi/"],
+  "status": "draft"
+}

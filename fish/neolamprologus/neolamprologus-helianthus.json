@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-helianthus",
+  "scientific_name": "Neolamprologus helianthus",
+  "common_names": {
+    "es": ["Neolamprologus helianthus"],
+    "en": ["Sunflower Lamprologus"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/neolamprologus-helianthus/"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hemigrammus-ocellifer",
+  "scientific_name": "Hemigrammus ocellifer",
+  "common_names": {
+    "es": ["Hemigrammus ocellifer"],
+    "en": ["Head-and-tail light Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": "Placed in Holopristis ocellifera by a recent revision; kept under Hemigrammus for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/holopristis-ocellifera/"],
+  "status": "draft"
+}

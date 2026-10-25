@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nanochromis-parilus",
+  "scientific_name": "Nanochromis parilus",
+  "common_names": {
+    "es": ["Nanochromis parilus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/nanochromis-parilus/"],
+  "status": "draft"
+}

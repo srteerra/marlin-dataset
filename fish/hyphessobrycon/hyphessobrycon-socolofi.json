@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-socolofi",
+  "scientific_name": "Hyphessobrycon socolofi",
+  "common_names": {
+    "es": ["Hyphessobrycon socolofi"],
+    "en": ["Lesser Bleeding Heart Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5.6,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 4,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Megalamphodus socolofi by a recent revision; kept under Hyphessobrycon for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/megalamphodus-socolofi/"],
+  "status": "draft"
+}

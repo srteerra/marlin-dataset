@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pelvicachromis-subocellatus",
+  "scientific_name": "Pelvicachromis subocellatus",
+  "common_names": {
+    "es": ["Pelvicachromis subocellatus"],
+    "en": ["Ocellated Kribensis"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/pelvicachromis-subocellatus/"
+  ],
+  "status": "draft"
+}

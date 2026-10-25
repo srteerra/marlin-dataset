@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pao-cochinchinensis",
+  "scientific_name": "Pao cochinchinensis",
+  "common_names": {
+    "es": ["Pao cochinchinensis"],
+    "en": ["Fang's Puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.8
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pao-cochinchinensis/"],
+  "status": "draft"
+}

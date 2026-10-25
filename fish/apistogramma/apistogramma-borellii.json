@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "apistogramma-borellii",
+  "scientific_name": "Apistogramma borellii",
+  "common_names": {
+    "es": ["Apistogramma borellii"],
+    "en": ["Borelli's Dwarf Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 5,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/apistogramma-borellii/"],
+  "status": "draft"
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "ivanacara-adoketa",
+  "scientific_name": "Ivanacara adoketa",
+  "common_names": {
+    "es": ["Ivanacara adoketa"],
+    "en": ["Zebra Acara"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22.2,
+    "max": 28.9
+  },
+  "ph": null,
+  "hardness_dgh": {
+    "min": 0,
+    "max": 10
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/ivanacara-adoketa/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "paraphanius-mento",
+  "scientific_name": "Paraphanius mento",
+  "common_names": {
+    "es": ["Paraphanius mento"],
+    "en": ["Iridescent Toothcarp"]
+  },
+  "family": "Aphaniidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 2,
+    "max": 30
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 30
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Aphanius mento.",
+  "sources": ["https://www.seriouslyfish.com/species/paraphanius-mento/"],
+  "status": "draft"
+}

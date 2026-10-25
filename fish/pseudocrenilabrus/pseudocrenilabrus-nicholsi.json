@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudocrenilabrus-nicholsi",
+  "scientific_name": "Pseudocrenilabrus nicholsi",
+  "common_names": {
+    "es": ["Pseudocrenilabrus nicholsi"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8.5,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 22,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/pseudocrenilabrus-nicholsi/"
+  ],
+  "status": "draft"
+}

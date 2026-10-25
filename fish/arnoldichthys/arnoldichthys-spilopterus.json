@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "arnoldichthys-spilopterus",
+  "scientific_name": "Arnoldichthys spilopterus",
+  "common_names": {
+    "es": ["Arnoldichthys spilopterus"],
+    "en": ["African Red-eyed Tetra"]
+  },
+  "family": "Alestidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/arnoldichthys-spilopterus/"
+  ],
+  "status": "draft"
+}

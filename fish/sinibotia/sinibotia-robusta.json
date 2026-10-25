@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "sinibotia-robusta",
+  "scientific_name": "Sinibotia robusta",
+  "common_names": {
+    "es": ["Sinibotia robusta"],
+    "en": ["Kansu Loach"]
+  },
+  "family": "Botiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 20,
+    "max": 25.5
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/sinibotia-robusta/"],
+  "status": "draft"
+}

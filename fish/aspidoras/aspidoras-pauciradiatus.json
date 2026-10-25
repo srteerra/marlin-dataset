@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aspidoras-pauciradiatus",
+  "scientific_name": "Aspidoras pauciradiatus",
+  "common_names": {
+    "es": ["Aspidoras pauciradiatus"],
+    "en": []
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/aspidoras-pauciradiatus/"],
+  "status": "draft"
+}

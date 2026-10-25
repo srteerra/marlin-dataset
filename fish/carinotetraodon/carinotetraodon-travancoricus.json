@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "carinotetraodon-travancoricus",
+  "scientific_name": "Carinotetraodon travancoricus",
+  "common_names": {
+    "es": ["Carinotetraodon travancoricus"],
+    "en": ["Dwarf Puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.5,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.8,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/carinotetraodon-travancoricus/"
+  ],
+  "status": "draft"
+}

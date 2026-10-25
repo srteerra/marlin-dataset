@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "gasteropelecus-levis",
+  "scientific_name": "Gasteropelecus levis",
+  "common_names": {
+    "es": ["Gasteropelecus levis"],
+    "en": ["Silver Hatchetfish"]
+  },
+  "family": "Gasteropelecidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.5,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/gasteropelecus-levis/"],
+  "status": "draft"
+}

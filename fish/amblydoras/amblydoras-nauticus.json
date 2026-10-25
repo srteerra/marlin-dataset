@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "amblydoras-nauticus",
+  "scientific_name": "Amblydoras nauticus",
+  "common_names": {
+    "es": ["Pirillo"],
+    "en": ["Marbled Talking Catfish"]
+  },
+  "family": "Doradidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/amblydoras-nauticus/"],
+  "status": "draft"
+}

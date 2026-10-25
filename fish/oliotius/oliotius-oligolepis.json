@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "oliotius-oligolepis",
+  "scientific_name": "Oliotius oligolepis",
+  "common_names": {
+    "es": ["Oliotius oligolepis"],
+    "en": ["Checkered Barb"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 18,
+    "max": 25
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/oliotius-oligolepis/"],
+  "status": "draft"
+}

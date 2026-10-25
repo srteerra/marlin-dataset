@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "crenicichla-compressiceps",
+  "scientific_name": "Crenicichla compressiceps",
+  "common_names": {
+    "es": ["Crenicichla compressiceps"],
+    "en": ["Compressiceps Dwarf Pike Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.6,
+  "min_tank_liters": 154,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 5,
+    "max": 6.8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 8
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": "Placed in Wallaciia compressiceps by a recent revision; kept under Crenicichla for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/wallaciia-compressiceps/"],
+  "status": "draft"
+}

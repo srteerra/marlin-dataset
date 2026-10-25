@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "channa-andrao",
+  "scientific_name": "Channa andrao",
+  "common_names": {
+    "es": ["Channa andrao"],
+    "en": ["Lal Cheng"]
+  },
+  "family": "Channidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 14,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/channa-andrao/"],
+  "status": "draft"
+}

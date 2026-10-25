@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-melanotaenia",
+  "scientific_name": "Corydoras melanotaenia",
+  "common_names": {
+    "es": ["Basurero verde dorado"],
+    "en": ["Green-gold Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 20,
+    "max": 23
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Osteogaster melanotaenia by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": [
+    "https://www.seriouslyfish.com/species/osteogaster-melanotaenia/"
+  ],
+  "status": "draft"
+}

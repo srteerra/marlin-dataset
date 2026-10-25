@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hemigrammus-pulcher",
+  "scientific_name": "Hemigrammus pulcher",
+  "common_names": {
+    "es": ["Tetra granate"],
+    "en": ["Pretty Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": "Placed in Holopristis pulchra by a recent revision; kept under Hemigrammus for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/holopristis-pulchra/"],
+  "status": "draft"
+}

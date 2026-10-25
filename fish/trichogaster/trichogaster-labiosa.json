@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "trichogaster-labiosa",
+  "scientific_name": "Trichogaster labiosa",
+  "common_names": {
+    "es": ["Trichogaster labiosa"],
+    "en": ["Thick-lipped Gourami"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 67,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/trichogaster-labiosa/"],
+  "status": "draft"
+}

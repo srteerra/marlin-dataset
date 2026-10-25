@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "melanochromis-auratus",
+  "scientific_name": "Melanochromis auratus",
+  "common_names": {
+    "es": ["Cíclido de oro", "Cíclido dorado"],
+    "en": ["Golden Mbuna"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11,
+  "min_tank_liters": 205,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.6,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/melanochromis-auratus/"],
+  "status": "draft"
+}

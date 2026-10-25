@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "indostomus-paradoxus",
+  "scientific_name": "Indostomus paradoxus",
+  "common_names": {
+    "es": ["Indostomus paradoxus"],
+    "en": ["Armoured Stickleback"]
+  },
+  "family": "Indostomidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 16,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/indostomus-paradoxus/"],
+  "status": "draft"
+}

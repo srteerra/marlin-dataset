@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "aulonocara-stuartgranti",
+  "scientific_name": "Aulonocara stuartgranti",
+  "common_names": {
+    "es": ["Aulonocara stuartgranti"],
+    "en": ["Grant's Peacock"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 23,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/aulonocara-stuartgranti/"],
+  "status": "draft"
+}

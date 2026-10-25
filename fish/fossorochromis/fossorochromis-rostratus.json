@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "fossorochromis-rostratus",
+  "scientific_name": "Fossorochromis rostratus",
+  "common_names": {
+    "es": ["Fossorochromis rostratus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 257,
+  "temperature_c": {
+    "min": 25,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/fossorochromis-rostratus/"
+  ],
+  "status": "draft"
+}

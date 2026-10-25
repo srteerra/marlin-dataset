@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "heterandria-formosa",
+  "scientific_name": "Heterandria formosa",
+  "common_names": {
+    "es": ["Heterandria formosa"],
+    "en": ["Least Killifish"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/heterandria-formosa/"],
+  "status": "draft"
+}

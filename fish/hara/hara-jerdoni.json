@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hara-jerdoni",
+  "scientific_name": "Hara jerdoni",
+  "common_names": {
+    "es": ["Hara jerdoni"],
+    "en": ["Asian Stone Catfish"]
+  },
+  "family": "Sisoridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 12,
+  "temperature_c": {
+    "min": 18,
+    "max": 24
+  },
+  "ph": {
+    "min": 5.6,
+    "max": 7.6
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/hara-jerdoni/"],
+  "status": "draft"
+}

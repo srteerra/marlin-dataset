@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rhinogobius-duospilus",
+  "scientific_name": "Rhinogobius duospilus",
+  "common_names": {
+    "es": ["Rhinogobius duospilus"],
+    "en": ["White-cheeked Goby"]
+  },
+  "family": "Gobiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 15,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": null,
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/rhinogobius-duospilus/"],
+  "status": "draft"
+}

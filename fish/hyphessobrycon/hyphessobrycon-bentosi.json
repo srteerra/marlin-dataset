@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-bentosi",
+  "scientific_name": "Hyphessobrycon bentosi",
+  "common_names": {
+    "es": ["Hyphessobrycon bentosi"],
+    "en": ["Ornate Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Megalamphodus bentosi by a recent revision; kept under Hyphessobrycon for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/megalamphodus-bentosi/"],
+  "status": "draft"
+}

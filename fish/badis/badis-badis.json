@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "badis-badis",
+  "scientific_name": "Badis badis",
+  "common_names": {
+    "es": ["Badis badis"],
+    "en": ["Badis"]
+  },
+  "family": "Badidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 15,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 3,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/badis-badis/"],
+  "status": "draft"
+}

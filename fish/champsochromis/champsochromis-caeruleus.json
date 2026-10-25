@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "champsochromis-caeruleus",
+  "scientific_name": "Champsochromis caeruleus",
+  "common_names": {
+    "es": ["Champsochromis caeruleus"],
+    "en": ["Malawi Trout"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 32.5,
+  "min_tank_liters": 648,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 30
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/champsochromis-caeruleus/"
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "hyphessobrycon-loretoensis",
+  "scientific_name": "Hyphessobrycon loretoensis",
+  "common_names": {
+    "es": ["Hyphessobrycon loretoensis"],
+    "en": ["Loreto Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 8
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/hyphessobrycon-loretoensis/"
+  ],
+  "status": "draft"
+}

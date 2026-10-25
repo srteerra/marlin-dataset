@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "xenotoca-eiseni",
+  "scientific_name": "Xenotoca eiseni",
+  "common_names": {
+    "es": ["Xenotoca eiseni"],
+    "en": ["Redtail Goodeid"]
+  },
+  "family": "Goodeidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 15,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/xenotoca-eiseni/"],
+  "status": "draft"
+}

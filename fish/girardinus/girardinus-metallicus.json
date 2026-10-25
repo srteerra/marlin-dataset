@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "girardinus-metallicus",
+  "scientific_name": "Girardinus metallicus",
+  "common_names": {
+    "es": ["Girardinus metallicus"],
+    "en": ["Metallic Girardinus"]
+  },
+  "family": "Poeciliidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/girardinus-metallicus/"],
+  "status": "draft"
+}

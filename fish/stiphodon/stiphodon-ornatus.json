@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "stiphodon-ornatus",
+  "scientific_name": "Stiphodon ornatus",
+  "common_names": {
+    "es": ["Stiphodon ornatus"],
+    "en": ["Rainbow Stiphodon"]
+  },
+  "family": "Gobiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/stiphodon-ornatus/"],
+  "status": "draft"
+}

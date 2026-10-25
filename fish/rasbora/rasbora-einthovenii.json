@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rasbora-einthovenii",
+  "scientific_name": "Rasbora einthovenii",
+  "common_names": {
+    "es": ["Rasbora einthovenii"],
+    "en": ["Brilliant Rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 9,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": null,
+  "hardness_dgh": {
+    "min": 2,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/rasbora-einthovenii/"],
+  "status": "draft"
+}

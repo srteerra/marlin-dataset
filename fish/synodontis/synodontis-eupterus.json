@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "synodontis-eupterus",
+  "scientific_name": "Synodontis eupterus",
+  "common_names": {
+    "es": ["Synodontis eupterus"],
+    "en": ["Featherfin Synodontis"]
+  },
+  "family": "Mochokidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 22,
+    "max": 27
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 8,
+    "max": 20
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/synodontis-eupterus/"],
+  "status": "draft"
+}

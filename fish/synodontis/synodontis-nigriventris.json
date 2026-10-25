@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "synodontis-nigriventris",
+  "scientific_name": "Synodontis nigriventris",
+  "common_names": {
+    "es": ["Synodontis nigriventris"],
+    "en": ["Upside-down Catfish"]
+  },
+  "family": "Mochokidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 3,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/synodontis-nigriventris/"],
+  "status": "draft"
+}

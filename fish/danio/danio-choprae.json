@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "danio-choprae",
+  "scientific_name": "Danio choprae",
+  "common_names": {
+    "es": ["Danio choprae"],
+    "en": ["Glowlight Danio"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 16,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/danio-choprae/"],
+  "status": "draft"
+}

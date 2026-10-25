@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nannaethiops-unitaeniatus",
+  "scientific_name": "Nannaethiops unitaeniatus",
+  "common_names": {
+    "es": ["Nannaethiops unitaeniatus"],
+    "en": ["One-lined African Characin"]
+  },
+  "family": "Citharinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/nannaethiops-unitaeniatus/"
+  ],
+  "status": "draft"
+}

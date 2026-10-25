@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "brevibora-dorsiocellata",
+  "scientific_name": "Brevibora dorsiocellata",
+  "common_names": {
+    "es": ["Brevibora dorsiocellata"],
+    "en": ["Eyespot Rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2.3,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": "Often sold under its older name, Rasbora dorsiocellata.",
+  "sources": ["https://www.seriouslyfish.com/species/brevibora-dorsiocellata/"],
+  "status": "draft"
+}

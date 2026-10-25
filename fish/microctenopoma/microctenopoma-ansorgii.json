@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "microctenopoma-ansorgii",
+  "scientific_name": "Microctenopoma ansorgii",
+  "common_names": {
+    "es": ["Microctenopoma ansorgii"],
+    "en": ["Ornate ctenopoma"]
+  },
+  "family": "Anabantidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 20,
+    "max": 27
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 20
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/microctenopoma-ansorgii/"],
+  "status": "draft"
+}

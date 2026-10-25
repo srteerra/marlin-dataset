@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-sodalis",
+  "scientific_name": "Corydoras sodalis",
+  "common_names": {
+    "es": ["Corydoras sodalis"],
+    "en": ["False Network Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Brochis sodalis by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/brochis-sodalis/"],
+  "status": "draft"
+}

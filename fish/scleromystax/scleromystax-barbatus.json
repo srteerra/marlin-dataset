@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "scleromystax-barbatus",
+  "scientific_name": "Scleromystax barbatus",
+  "common_names": {
+    "es": ["Scleromystax barbatus"],
+    "en": ["Banded 'Cory'"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 16,
+    "max": 24
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/scleromystax-barbatus/"],
+  "status": "draft"
+}

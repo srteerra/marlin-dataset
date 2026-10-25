@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "corydoras-rabauti",
+  "scientific_name": "Corydoras rabauti",
+  "common_names": {
+    "es": ["Corydoras rabauti"],
+    "en": ["Rusty Cory"]
+  },
+  "family": "Callichthyidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 6.5,
+  "min_tank_liters": 81,
+  "temperature_c": {
+    "min": 20,
+    "max": 27
+  },
+  "ph": {
+    "min": 5.5,
+    "max": 7.2
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": "Placed in Osteogaster rabauti by a recent revision; kept under Corydoras for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/osteogaster-rabauti/"],
+  "status": "draft"
+}

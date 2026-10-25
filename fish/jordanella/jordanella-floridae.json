@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "jordanella-floridae",
+  "scientific_name": "Jordanella floridae",
+  "common_names": {
+    "es": ["Jordanella floridae"],
+    "en": ["Florida Flagfish"]
+  },
+  "family": "Cyprinodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 18,
+    "max": 30
+  },
+  "ph": {
+    "min": 6.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/jordanella-floridae/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-lemairii",
+  "scientific_name": "Neolamprologus lemairii",
+  "common_names": {
+    "es": ["Neolamprologus lemairii"],
+    "en": ["Lemaire's Lamprologus"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25,
+  "min_tank_liters": 205,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Lamprologus lemairii.",
+  "sources": ["https://www.seriouslyfish.com/species/neolamprologus-lemairii/"],
+  "status": "draft"
+}

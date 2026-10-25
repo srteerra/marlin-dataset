@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "neolamprologus-pulcher",
+  "scientific_name": "Neolamprologus pulcher",
+  "common_names": {
+    "es": ["Neolamprologus pulcher"],
+    "en": ["Brichardi"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.2,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 8,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 9,
+    "max": 25
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/neolamprologus-pulcher/"],
+  "status": "draft"
+}

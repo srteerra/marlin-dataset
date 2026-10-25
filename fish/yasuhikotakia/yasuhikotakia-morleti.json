@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "yasuhikotakia-morleti",
+  "scientific_name": "Yasuhikotakia morleti",
+  "common_names": {
+    "es": ["Yasuhikotakia morleti"],
+    "en": ["Skunk Loach"]
+  },
+  "family": "Botiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 8.5,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 23,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/yasuhikotakia-morleti/"],
+  "status": "draft"
+}

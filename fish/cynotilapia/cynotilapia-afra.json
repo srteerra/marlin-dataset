@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cynotilapia-afra",
+  "scientific_name": "Cynotilapia afra",
+  "common_names": {
+    "es": ["Cynotilapia afra"],
+    "en": ["Dogtooth Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 90,
+  "temperature_c": {
+    "min": 25,
+    "max": 29
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/cynotilapia-afra/"],
+  "status": "draft"
+}

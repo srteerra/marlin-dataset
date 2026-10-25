@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "enteromius-jae",
+  "scientific_name": "Enteromius jae",
+  "common_names": {
+    "es": ["Enteromius jae"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4,
+  "min_tank_liters": 41,
+  "temperature_c": {
+    "min": 17,
+    "max": 24
+  },
+  "ph": {
+    "min": 5,
+    "max": 6.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 5
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": "Often sold under its older name, Barbus jae.",
+  "sources": ["https://www.seriouslyfish.com/species/enteromius-jae/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "cyphotilapia-gibberosa",
+  "scientific_name": "Cyphotilapia gibberosa",
+  "common_names": {
+    "es": ["Cyphotilapia gibberosa"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 25.5,
+  "min_tank_liters": 864,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": {
+    "min": 8,
+    "max": 9
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 5,
+  "diet": "carnivore",
+  "care_level": "advanced",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/cyphotilapia-gibberosa/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "botia-dario",
+  "scientific_name": "Botia dario",
+  "common_names": {
+    "es": ["Botia dario"],
+    "en": ["Bengal Loach"]
+  },
+  "family": "Botiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 13,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 23,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 10
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/botia-dario/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "apistogramma-bitaeniata",
+  "scientific_name": "Apistogramma bitaeniata",
+  "common_names": {
+    "es": ["Apistogramma bitaeniata"],
+    "en": ["Two-Striped Dwarf Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 22,
+    "max": 29
+  },
+  "ph": {
+    "min": 4.5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 5
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/apistogramma-bitaeniata/"],
+  "status": "draft"
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "syncrossus-helodes",
+  "scientific_name": "Syncrossus helodes",
+  "common_names": {
+    "es": ["Syncrossus helodes"],
+    "en": ["Banded Tiger Loach"]
+  },
+  "family": "Botiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 30,
+  "min_tank_liters": 365,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/syncrossus-helodes/"],
+  "status": "draft"
+}

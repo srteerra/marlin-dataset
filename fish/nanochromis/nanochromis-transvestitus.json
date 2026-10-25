@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "nanochromis-transvestitus",
+  "scientific_name": "Nanochromis transvestitus",
+  "common_names": {
+    "es": ["Nanochromis transvestitus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 7,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 24,
+    "max": 27
+  },
+  "ph": {
+    "min": 4,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "beginner",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/nanochromis-transvestitus/"
+  ],
+  "status": "draft"
+}

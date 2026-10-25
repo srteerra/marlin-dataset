@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "betta-macrostoma",
+  "scientific_name": "Betta macrostoma",
+  "common_names": {
+    "es": ["Betta macrostoma"],
+    "en": ["Brunei Beauty"]
+  },
+  "family": "Osphronemidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 72,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 4,
+    "max": 6
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 5
+  },
+  "temperament": "aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/betta-macrostoma/"],
+  "status": "draft"
+}

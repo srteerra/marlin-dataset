@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pao-baileyi",
+  "scientific_name": "Pao baileyi",
+  "common_names": {
+    "es": ["Pao baileyi"],
+    "en": ["Hairy Puffer"]
+  },
+  "family": "Tetraodontidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 23,
+    "max": 27
+  },
+  "ph": null,
+  "hardness_dgh": null,
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pao-baileyi/"],
+  "status": "draft"
+}

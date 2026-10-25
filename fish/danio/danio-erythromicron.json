@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "danio-erythromicron",
+  "scientific_name": "Danio erythromicron",
+  "common_names": {
+    "es": ["Danio erythromicron"],
+    "en": []
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 2,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 20,
+    "max": 24
+  },
+  "ph": {
+    "min": 7,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 12,
+    "max": 20
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/danio-erythromicron/"],
+  "status": "draft"
+}
