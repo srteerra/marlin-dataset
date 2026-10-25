@@ -1,0 +1,30 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rasbora-borapetensis",
+  "scientific_name": "Rasbora borapetensis",
+  "common_names": {
+    "es": ["Rasbora borapetensis"],
+    "en": ["Red-tailed Rasbora"]
+  },
+  "family": "Cyprinidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 5,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 22,
+    "max": 26
+  },
+  "ph": null,
+  "hardness_dgh": {
+    "min": 2,
+    "max": 12
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 8,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/rasbora-borapetensis/"],
+  "status": "draft"
+}

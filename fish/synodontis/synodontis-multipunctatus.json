@@ -1,0 +1,35 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "synodontis-multipunctatus",
+  "scientific_name": "Synodontis multipunctatus",
+  "common_names": {
+    "es": ["Synodontis multipunctatus"],
+    "en": ["Cuckoo Synodontis"]
+  },
+  "family": "Mochokidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": 108,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.5,
+    "max": 8.5
+  },
+  "hardness_dgh": {
+    "min": 15,
+    "max": 35
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": 4,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": [
+    "https://www.seriouslyfish.com/species/synodontis-multipunctatus/"
+  ],
+  "status": "draft"
+}

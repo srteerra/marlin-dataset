@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rhinogobius-zhoui",
+  "scientific_name": "Rhinogobius zhoui",
+  "common_names": {
+    "es": ["Rhinogobius zhoui"],
+    "en": []
+  },
+  "family": "Gobiidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 3.6,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 19,
+    "max": 24
+  },
+  "ph": {
+    "min": 7,
+    "max": 7.8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 12
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/rhinogobius-zhoui/"],
+  "status": "draft"
+}

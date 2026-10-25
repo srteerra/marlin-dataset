@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "rineloricaria-parva",
+  "scientific_name": "Rineloricaria parva",
+  "common_names": {
+    "es": ["Rineloricaria parva"],
+    "en": ["Whiptail Catfish"]
+  },
+  "family": "Loricariidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11,
+  "min_tank_liters": 68,
+  "temperature_c": {
+    "min": 20,
+    "max": 25
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 15
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/rineloricaria-parva/"],
+  "status": "draft"
+}
