@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudotropheus-socolofi",
+  "scientific_name": "Pseudotropheus socolofi",
+  "common_names": {
+    "es": ["Pseudotropheus socolofi"],
+    "en": ["Powder Blue Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 11.5,
+  "min_tank_liters": 154,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.6,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": "Placed in Chindongo socolofi by a recent revision; kept under Pseudotropheus for now to match the rest of the dataset.",
+  "sources": ["https://www.seriouslyfish.com/species/chindongo-socolofi/"],
+  "status": "draft"
+}

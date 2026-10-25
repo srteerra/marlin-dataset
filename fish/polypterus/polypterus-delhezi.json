@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "polypterus-delhezi",
+  "scientific_name": "Polypterus delhezi",
+  "common_names": {
+    "es": ["Polypterus delhezi"],
+    "en": ["Armoured Bichir"]
+  },
+  "family": "Polypteridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 35,
+  "min_tank_liters": 205,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 6,
+    "max": 8
+  },
+  "hardness_dgh": {
+    "min": 5,
+    "max": 25
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/polypterus-delhezi/"],
+  "status": "draft"
+}

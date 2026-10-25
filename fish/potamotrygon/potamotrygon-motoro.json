@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "potamotrygon-motoro",
+  "scientific_name": "Potamotrygon motoro",
+  "common_names": {
+    "es": ["Raya común"],
+    "en": ["Motoro Stingray"]
+  },
+  "family": "Potamotrygonidae",
+  "water_type": "freshwater",
+  "adult_size_cm": null,
+  "min_tank_liters": 1620,
+  "temperature_c": {
+    "min": 24,
+    "max": 26
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 12
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": null,
+  "care_level": "advanced",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/potamotrygon-motoro/"],
+  "status": "draft"
+}

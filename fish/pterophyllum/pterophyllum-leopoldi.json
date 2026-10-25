@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pterophyllum-leopoldi",
+  "scientific_name": "Pterophyllum leopoldi",
+  "common_names": {
+    "es": ["Pterophyllum leopoldi"],
+    "en": ["Roman Nose Angelfish"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 10,
+  "min_tank_liters": 122,
+  "temperature_c": {
+    "min": 22,
+    "max": 29
+  },
+  "ph": {
+    "min": 5,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 0,
+    "max": 6
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "omnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pterophyllum-leopoldi/"],
+  "status": "draft"
+}

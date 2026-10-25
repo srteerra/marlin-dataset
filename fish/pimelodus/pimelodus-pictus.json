@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pimelodus-pictus",
+  "scientific_name": "Pimelodus pictus",
+  "common_names": {
+    "es": ["Pimelodus pictus"],
+    "en": ["Pictus Cat"]
+  },
+  "family": "Pimelodidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 12,
+  "min_tank_liters": 243,
+  "temperature_c": {
+    "min": 22,
+    "max": 25
+  },
+  "ph": {
+    "min": 5.8,
+    "max": 6.8
+  },
+  "hardness_dgh": {
+    "min": 1,
+    "max": 15
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": null,
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pimelodus-pictus/"],
+  "status": "draft"
+}

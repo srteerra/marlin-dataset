@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pristella-maxillaris",
+  "scientific_name": "Pristella maxillaris",
+  "common_names": {
+    "es": ["Pristella maxillaris"],
+    "en": ["X-ray Tetra"]
+  },
+  "family": "Characidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 4.5,
+  "min_tank_liters": 54,
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6,
+    "max": 7.5
+  },
+  "hardness_dgh": {
+    "min": 2,
+    "max": 20
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": 6,
+  "diet": "carnivore",
+  "care_level": "beginner",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pristella-maxillaris/"],
+  "status": "draft"
+}

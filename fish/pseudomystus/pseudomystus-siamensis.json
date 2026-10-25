@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "pseudomystus-siamensis",
+  "scientific_name": "Pseudomystus siamensis",
+  "common_names": {
+    "es": ["Pseudomystus siamensis"],
+    "en": ["Asian Bumblebee Catfish"]
+  },
+  "family": "Bagridae",
+  "water_type": "freshwater",
+  "adult_size_cm": 15,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 20,
+    "max": 26
+  },
+  "ph": {
+    "min": 5.8,
+    "max": 7.8
+  },
+  "hardness_dgh": {
+    "min": 4,
+    "max": 25
+  },
+  "temperament": "semi_aggressive",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "carnivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/pseudomystus-siamensis/"],
+  "status": "draft"
+}

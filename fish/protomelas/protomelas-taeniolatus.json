@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "protomelas-taeniolatus",
+  "scientific_name": "Protomelas taeniolatus",
+  "common_names": {
+    "es": ["Protomelas taeniolatus"],
+    "en": []
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 20,
+  "min_tank_liters": 205,
+  "temperature_c": {
+    "min": 24,
+    "max": 28
+  },
+  "ph": {
+    "min": 7.6,
+    "max": 8.8
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 25
+  },
+  "temperament": "peaceful",
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/protomelas-taeniolatus/"],
+  "status": "draft"
+}
