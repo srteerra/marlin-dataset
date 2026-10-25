@@ -1,0 +1,33 @@
+{
+  "$schema": "../../schema/fish.schema.json",
+  "id": "vieja-melanurus",
+  "scientific_name": "Vieja melanurus",
+  "common_names": {
+    "es": ["Vieja melanurus"],
+    "en": ["Redhead Cichlid"]
+  },
+  "family": "Cichlidae",
+  "water_type": "freshwater",
+  "adult_size_cm": 35,
+  "min_tank_liters": null,
+  "temperature_c": {
+    "min": 24,
+    "max": 30
+  },
+  "ph": {
+    "min": 7,
+    "max": 7
+  },
+  "hardness_dgh": {
+    "min": 10,
+    "max": 15
+  },
+  "temperament": null,
+  "swim_zone": null,
+  "schooling_min": null,
+  "diet": "herbivore",
+  "care_level": "intermediate",
+  "notes": null,
+  "sources": ["https://www.seriouslyfish.com/species/vieja-melanurus/"],
+  "status": "draft"
+}
