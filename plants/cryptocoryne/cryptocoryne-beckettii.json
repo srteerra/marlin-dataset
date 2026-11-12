@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "cryptocoryne-beckettii",
+  "scientific_name": "Cryptocoryne beckettii",
+  "common_names": {
+    "es": ["Criptocorine beckettii"],
+    "en": ["Beckett's water trumpet"]
+  },
+  "family": "Araceae",
+  "water_type": "freshwater",
+  "zones": ["midground"],
+  "growth_form": "rosette",
+  "leaf_color": "green",
+  "max_height_cm": 15,
+  "light": "low",
+  "carbon_dioxide": "optional",
+  "growth_rate": "slow",
+  "care_level": "beginner",
+  "temperature_c": {
+    "min": 21,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.5
+  },
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

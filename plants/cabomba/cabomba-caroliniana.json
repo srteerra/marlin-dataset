@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "cabomba-caroliniana",
+  "scientific_name": "Cabomba caroliniana",
+  "common_names": {
+    "es": ["Cabomba"],
+    "en": ["Carolina fanwort"]
+  },
+  "family": "Cabombaceae",
+  "water_type": "freshwater",
+  "zones": ["background"],
+  "growth_form": "stem",
+  "leaf_color": "green",
+  "max_height_cm": null,
+  "light": "high",
+  "carbon_dioxide": "recommended",
+  "growth_rate": "fast",
+  "care_level": "intermediate",
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.0
+  },
+  "hardness_dgh": null,
+  "notes": "Invasive outside its native range in many countries; check local rules before buying and never release it into the wild.",
+  "sources": [],
+  "status": "draft"
+}
