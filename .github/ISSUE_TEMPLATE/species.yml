@@ -1,5 +1,5 @@
 name: Species
-description: Propose a new species or fix an existing one, no Git needed.
+description: Propose a new fish or plant, or fix an existing one, no Git needed.
 title: "[Species] "
 labels: ["species"]
 body:
@@ -8,6 +8,16 @@ body:
       value: |
         Thanks for helping! Write in your own words and cite where each fact comes from.
         Use metric units (cm, liters, °C, °dH). If you are not sure about a value, leave it blank.
+
+  - type: dropdown
+    id: collection
+    attributes:
+      label: Fish or plant
+      options:
+        - Fish
+        - Plant
+    validations:
+      required: true
 
   - type: dropdown
     id: kind
@@ -45,7 +55,7 @@ body:
     id: known_data
     attributes:
       label: Data you know
-      description: Adult size, minimum liters, temperature, pH, hardness, temperament, swim zone, diet, etc. For a correction, give the field, the current value and the correct value.
+      description: "Fish: adult size, minimum liters, temperature, pH, hardness, temperament, swim zone, diet, etc. Plants: zones, growth form, light, CO2, growth rate, temperature, pH, height, etc. For a correction, give the field, the current value and the correct value."
       placeholder: |
         temperature: 22–26 °C
         pH: 6.0–7.0

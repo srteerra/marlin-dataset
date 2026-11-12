@@ -1,13 +1,14 @@
 # Contributing
 
-Thanks for helping! No prior experience needed: if you know about fish, you can already contribute.
+Thanks for helping! No prior experience needed: if you know about fish or aquarium plants, you can already contribute.
 
 ## Adding or fixing a species
 
-1. **Copy the template.** Copy [`template.json`](template.json) to `fish/<genus>/<id>.json`.
+1. **Copy the template.** Copy [`template.json`](template.json) to `fish/<genus>/<id>.json`, or [`plant-template.json`](plant-template.json) to `plants/<genus>/<id>.json` for a plant.
    - The `id` is the scientific name in lowercase, with hyphens and no accents.
    - The folder is the first part of the `id`.
    - Example: *Paracheirodon innesi* → `fish/paracheirodon/paracheirodon-innesi.json`.
+   - Plants keep the variety or cultivar in the name: *Anubias barteri var. nana* → `plants/anubias/anubias-barteri-var-nana.json`.
    - Keep the `"$schema"` line as is: editors like VS Code use it to autocomplete fields, show what each one means and flag mistakes as you type.
 2. **Fill in the data** using your sources and your own words.
    - Metric units: cm, liters, °C, °dH.
@@ -19,7 +20,7 @@ Thanks for helping! No prior experience needed: if you know about fish, you can 
 3. **Validate.** If you have Go installed:
    ```bash
    cd tools
-   go run . validate ../fish
+   go run . validate ../fish    # or ../plants
    ```
    If not, no problem: CI validates your PR automatically.
 4. **Open a pull request.** One species per PR, so it's easy to review.
@@ -36,6 +37,21 @@ Thanks for helping! No prior experience needed: if you know about fish, you can 
 | `schooling_min` | minimum group size (2 or more), `null` if it does not live in groups |
 
 Every field is described in [`schema/fish.schema.json`](schema/fish.schema.json).
+
+### Allowed values for plants
+
+| Field | Values |
+|---|---|
+| `water_type` | `freshwater`, `brackish` |
+| `zones` | one or more of `background`, `midground`, `foreground`, `floating`, `epiphyte` |
+| `growth_form` | `stem`, `rosette`, `rhizome`, `carpet`, `grass`, `ribbon`, `moss`, `floating` |
+| `leaf_color` | `green`, `red` (red covers pink, orange and bronze) |
+| `light` | `low`, `medium`, `high` |
+| `carbon_dioxide` | `optional`, `recommended`, `required` |
+| `growth_rate` | `slow`, `medium`, `fast` |
+| `care_level` | `beginner`, `intermediate`, `advanced` |
+
+Every plant field is described in [`schema/plant.schema.json`](schema/plant.schema.json).
 
 ### Don't use Git?
 
@@ -55,6 +71,7 @@ We use [Conventional Commits](https://www.conventionalcommits.org/):
 ```
 feat(fish): add paracheirodon-innesi
 fix(fish): correct ph for betta-splendens
+feat(plants): add microsorum-pteropus
 feat(tools): add hardness check
 docs: ...
 ci: ...

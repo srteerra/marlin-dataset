@@ -10,12 +10,13 @@ import (
 	"github.com/srteerra/marlin-dataset/tools/internal/dataset"
 )
 
-// Release assets and their indentation; the minified one is what consumers download.
+// Release assets are <collection>.json and <collection>.min.json; the minified one is what consumers download.
 const (
-	defaultOutputDir  = "dist"
-	bundleFileName    = "fish.json"
-	minBundleFileName = "fish.min.json"
-	bundleIndent      = "  "
+	defaultOutputDir     = "dist"
+	bundleExtension      = ".json"
+	minBundleExtension   = ".min.json"
+	bundleIndent         = "  "
+	minifiedBundleIndent = ""
 )
 
 // bundleFile pairs an output file name with its indentation.
@@ -24,26 +25,33 @@ type bundleFile struct {
 	indent string
 }
 
-var bundleFiles = []bundleFile{
-	{name: bundleFileName, indent: bundleIndent},
-	{name: minBundleFileName, indent: ""},
+// bundleFilesFor names the release assets of a collection, e.g. plants.json and plants.min.json.
+func bundleFilesFor(collection string) []bundleFile {
+	return []bundleFile{
+		{name: collection + bundleExtension, indent: bundleIndent},
+		{name: collection + minBundleExtension, indent: minifiedBundleIndent},
+	}
 }
 
-// runBundle implements `bundle --version vYYYY.MM.N <fish-dir>`.
+// runBundle implements `bundle --version vYYYY.MM.N <dataset-dir>`.
 func runBundle(args []string) int {
 	flags := flag.NewFlagSet("bundle", flag.ContinueOnError)
 	schemaPath := addSchemaFlag(flags)
 	version := flags.String("version", "", "release version, e.g. v2026.10.0 (required)")
-	outputDir := flags.String("out", "", "output folder (default <fish-dir>/../dist)")
+	outputDir := flags.String("out", "", "output folder (default <dataset-dir>/../dist)")
 	datasetDir, ok := parseDatasetArgs(flags, args)
 	if !ok {
 		return exitUsage
 	}
-	result, ok := validateDataset(datasetDir, *schemaPath)
+	collection, ok := resolveCollection(datasetDir)
+	if !ok {
+		return exitUsage
+	}
+	result, ok := validateDataset(datasetDir, collection, *schemaPath)
 	if !ok {
 		return exitFailure
 	}
-	bundle, err := dataset.BuildBundle(result.Records, *version, time.Now())
+	bundle, err := dataset.BuildBundle(result.Records, collection, *version, time.Now())
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		return exitFailure
@@ -53,7 +61,7 @@ func runBundle(args []string) int {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		return exitFailure
 	}
-	fmt.Printf("ok: %s with %d species written to %s\n", bundle.Version, bundle.Count, directory)
+	fmt.Printf("ok: %s with %d %s species written to %s\n", bundle.Version, bundle.Count, collection.Name, directory)
 	return exitSuccess
 }
 
@@ -70,7 +78,7 @@ func writeBundleFiles(bundle dataset.Bundle, directory string) error {
 	if err := os.MkdirAll(directory, 0o755); err != nil {
 		return err
 	}
-	for _, file := range bundleFiles {
+	for _, file := range bundleFilesFor(bundle.Collection) {
 		if err := writeBundleFile(bundle, filepath.Join(directory, file.name), file.indent); err != nil {
 			return err
 		}

@@ -1,17 +1,20 @@
 # marlin-dataset
 
-An open dataset of **aquarium fish**.
+An open dataset of **aquarium fish and plants**.
 
 ## What's inside
 
 ```
-fish/<genus>/<id>.json       # one species per file
-schema/fish.schema.json      # format rules
-template.json                # template for new species
-tools/                       # Go CLI for validation
+fish/<genus>/<id>.json       # one fish species per file
+plants/<genus>/<id>.json     # one plant species or cultivar per file
+schema/fish.schema.json      # format rules for fish
+schema/plant.schema.json     # format rules for plants
+template.json                # template for a new fish
+plant-template.json          # template for a new plant
+tools/                       # Go CLI for validation and release bundles
 ```
 
-Example: [`fish/paracheirodon/paracheirodon-innesi.json`](fish/paracheirodon/paracheirodon-innesi.json).
+Examples: [`fish/paracheirodon/paracheirodon-innesi.json`](fish/paracheirodon/paracheirodon-innesi.json), [`plants/anubias/anubias-barteri-var-nana.json`](plants/anubias/anubias-barteri-var-nana.json).
 
 - Metric units: cm, liters, °C, hardness in °dH.
 - Ranges as `{ min, max }`.
@@ -21,7 +24,7 @@ Example: [`fish/paracheirodon/paracheirodon-innesi.json`](fish/paracheirodon/par
 
 ## Using the data
 
-Read the JSON files directly and load them into whatever tool or database you prefer. Before showing a value to end users, filter by `status: reviewed`.
+Read the JSON files directly, or download a release: each one ships `fish.json` / `fish.min.json` (`{version, generated_at, count, fish}`) and `plants.json` / `plants.min.json` (`{version, generated_at, count, plants}`). Before showing a value to end users, filter by `status: reviewed`.
 
 ### License and attribution
 
@@ -35,8 +38,9 @@ Requires Go (version in [`tools/go.mod`](tools/go.mod)).
 
 ```bash
 cd tools
-go test ./...              # tests
-go run . validate ../fish  # validate the whole dataset
+go test ./...                # tests
+go run . validate ../fish    # validate the fish
+go run . validate ../plants  # validate the plants
 ```
 
 All errors are reported together, with file, field and reason.

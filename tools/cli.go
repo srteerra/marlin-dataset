@@ -9,12 +9,9 @@ import (
 	"github.com/srteerra/marlin-dataset/tools/internal/dataset"
 )
 
-// defaultSchemaFile is resolved relative to the parent of the dataset folder.
-var defaultSchemaFile = filepath.Join("schema", "fish.schema.json")
-
 // addSchemaFlag registers the optional --schema override shared by every subcommand.
 func addSchemaFlag(flags *flag.FlagSet) *string {
-	return flags.String("schema", "", "path to the schema (default <fish-dir>/../schema/fish.schema.json)")
+	return flags.String("schema", "", "path to the schema (default: the collection's schema, e.g. <dataset-dir>/../schema/plant.schema.json)")
 }
 
 // parseDatasetArgs parses flags and returns the single dataset folder argument.
@@ -23,18 +20,18 @@ func parseDatasetArgs(flags *flag.FlagSet, args []string) (string, bool) {
 		return "", false
 	}
 	if flags.NArg() != 1 {
-		fmt.Fprintln(os.Stderr, "pass exactly one dataset folder, e.g. ../fish")
+		fmt.Fprintln(os.Stderr, "pass exactly one dataset folder, e.g. ../fish or ../plants")
 		return "", false
 	}
 	return flags.Arg(0), true
 }
 
-// resolveSchemaPath returns the override, or the schema next to the dataset folder.
-func resolveSchemaPath(datasetDir, override string) string {
+// resolveSchemaPath returns the override, or the collection's schema next to the dataset folder.
+func resolveSchemaPath(datasetDir string, collection dataset.Collection, override string) string {
 	if override != "" {
 		return override
 	}
-	return datasetSibling(datasetDir, defaultSchemaFile)
+	return datasetSibling(datasetDir, collection.SchemaFile)
 }
 
 // datasetSibling resolves a path relative to the parent of the dataset folder.
@@ -42,9 +39,19 @@ func datasetSibling(datasetDir, relativePath string) string {
 	return filepath.Join(filepath.Dir(filepath.Clean(datasetDir)), relativePath)
 }
 
+// resolveCollection names the collection from the dataset folder, printing the error when unknown.
+func resolveCollection(datasetDir string) (dataset.Collection, bool) {
+	collection, err := dataset.CollectionFor(datasetDir)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "error:", err)
+		return dataset.Collection{}, false
+	}
+	return collection, true
+}
+
 // validateDataset runs the validation, prints every issue and reports success.
-func validateDataset(datasetDir, schemaOverride string) (dataset.Result, bool) {
-	result, err := dataset.Validate(datasetDir, resolveSchemaPath(datasetDir, schemaOverride))
+func validateDataset(datasetDir string, collection dataset.Collection, schemaOverride string) (dataset.Result, bool) {
+	result, err := dataset.Validate(datasetDir, resolveSchemaPath(datasetDir, collection, schemaOverride))
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
 		return result, false

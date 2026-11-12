@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "crinum-calamistratum",
+  "scientific_name": "Crinum calamistratum",
+  "common_names": {
+    "es": ["Crinum africano"],
+    "en": ["African onion plant"]
+  },
+  "family": "Amaryllidaceae",
+  "water_type": "freshwater",
+  "zones": ["background"],
+  "growth_form": "ribbon",
+  "leaf_color": "green",
+  "max_height_cm": null,
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "slow",
+  "care_level": "intermediate",
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": null,
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

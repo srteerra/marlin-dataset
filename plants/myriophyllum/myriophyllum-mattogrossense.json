@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "myriophyllum-mattogrossense",
+  "scientific_name": "Myriophyllum mattogrossense",
+  "common_names": {
+    "es": ["Miriofilo"],
+    "en": ["Green foxtail"]
+  },
+  "family": "Haloragaceae",
+  "water_type": "freshwater",
+  "zones": ["background"],
+  "growth_form": "stem",
+  "leaf_color": "green",
+  "max_height_cm": null,
+  "light": "medium",
+  "carbon_dioxide": "recommended",
+  "growth_rate": "fast",
+  "care_level": "intermediate",
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.0
+  },
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

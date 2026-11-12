@@ -1,0 +1,19 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "testus-delta",
+  "scientific_name": "Testus delta",
+  "common_names": {
+    "es": ["Planta de prueba"]
+  },
+  "water_type": "freshwater",
+  "zones": ["ceiling"],
+  "growth_form": "stem",
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "fast",
+  "care_level": "beginner",
+  "temperature_c": null,
+  "ph": null,
+  "sources": [],
+  "status": "draft"
+}

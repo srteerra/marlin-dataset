@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "lemna-minor",
+  "scientific_name": "Lemna minor",
+  "common_names": {
+    "es": ["Lenteja de agua"],
+    "en": ["Common duckweed"]
+  },
+  "family": "Araceae",
+  "water_type": "freshwater",
+  "zones": ["floating"],
+  "growth_form": "floating",
+  "leaf_color": "green",
+  "max_height_cm": null,
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "fast",
+  "care_level": "beginner",
+  "temperature_c": null,
+  "ph": null,
+  "hardness_dgh": null,
+  "notes": "Spreads fast and can cover the surface; remove the excess regularly so plants below still get light.",
+  "sources": [],
+  "status": "draft"
+}

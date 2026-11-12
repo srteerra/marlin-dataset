@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "genus-species",
+  "scientific_name": "Genus species",
+  "common_names": {
+    "es": [],
+    "en": []
+  },
+  "family": null,
+  "water_type": "freshwater",
+  "zones": null,
+  "growth_form": null,
+  "leaf_color": null,
+  "max_height_cm": null,
+  "light": null,
+  "carbon_dioxide": null,
+  "growth_rate": null,
+  "care_level": null,
+  "temperature_c": null,
+  "ph": null,
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

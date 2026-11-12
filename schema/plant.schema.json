@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aquarium plant",
+  "description": "One aquarium plant species or cultivar. Metric units only. Use null when a value is not known with certainty; never a guess.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "id",
+    "scientific_name",
+    "common_names",
+    "water_type",
+    "zones",
+    "growth_form",
+    "light",
+    "carbon_dioxide",
+    "growth_rate",
+    "care_level",
+    "temperature_c",
+    "ph",
+    "sources",
+    "status"
+  ],
+  "properties": {
+    "$schema": {
+      "description": "Points editors to this schema for autocompletion. Always ../../schema/plant.schema.json.",
+      "const": "../../schema/plant.schema.json"
+    },
+    "id": {
+      "description": "Scientific name in kebab-case, without accents. Also the file name: plants/<genus>/<id>.json.",
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
+    },
+    "scientific_name": {
+      "description": "Scientific name, with the variety or cultivar when it matters, e.g. \"Anubias barteri var. nana\".",
+      "type": "string",
+      "minLength": 1
+    },
+    "common_names": {
+      "description": "Common names by language.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["es"],
+      "properties": {
+        "es": {
+          "description": "Spanish common names (at least one).",
+          "$ref": "#/$defs/nameList",
+          "minItems": 1
+        },
+        "en": {
+          "description": "English common names.",
+          "$ref": "#/$defs/nameList"
+        }
+      }
+    },
+    "family": {
+      "description": "Taxonomic family, e.g. \"Araceae\".",
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "water_type": {
+      "description": "Water the plant grows in.",
+      "enum": ["freshwater", "brackish"]
+    },
+    "zones": {
+      "description": "Where it is usually placed in the tank. null if unknown.",
+      "type": ["array", "null"],
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "enum": ["background", "midground", "foreground", "floating", "epiphyte"] }
+    },
+    "growth_form": {
+      "description": "How it grows: stem plants, rosettes from a crown, rhizome plants tied to wood or rock, carpeting plants, grass-like and ribbon-leaved plants, mosses or floating plants.",
+      "enum": ["stem", "rosette", "rhizome", "carpet", "grass", "ribbon", "moss", "floating", null]
+    },
+    "leaf_color": {
+      "description": "Main leaf color under good conditions; red covers pink, orange and bronze (optional).",
+      "enum": ["green", "red", null]
+    },
+    "max_height_cm": {
+      "description": "Typical maximum height in the aquarium, in centimeters (optional).",
+      "type": ["number", "null"],
+      "exclusiveMinimum": 0
+    },
+    "light": {
+      "description": "Light it needs to grow well.",
+      "enum": ["low", "medium", "high", null]
+    },
+    "carbon_dioxide": {
+      "description": "Whether it needs injected CO2.",
+      "enum": ["optional", "recommended", "required", null]
+    },
+    "growth_rate": {
+      "description": "How fast it grows under suitable conditions.",
+      "enum": ["slow", "medium", "fast", null]
+    },
+    "care_level": {
+      "description": "Experience needed to keep it.",
+      "enum": ["beginner", "intermediate", "advanced", null]
+    },
+    "temperature_c": {
+      "description": "Temperature range in °C, e.g. { \"min\": 22, \"max\": 28 }.",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "ph": {
+      "description": "pH range, e.g. { \"min\": 6.0, \"max\": 7.5 }.",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "hardness_dgh": {
+      "description": "General hardness range in °dH (optional).",
+      "$ref": "#/$defs/nullableRange"
+    },
+    "notes": {
+      "description": "Short original text, in English. Never copied.",
+      "type": ["string", "null"]
+    },
+    "sources": {
+      "description": "Where the data comes from. At least one is required for status reviewed.",
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "status": {
+      "description": "draft = not reviewed. reviewed = verified by a human, with sources. Only a human sets reviewed.",
+      "enum": ["draft", "reviewed"]
+    }
+  },
+  "$defs": {
+    "nameList": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "nullableRange": {
+      "description": "A { min, max } range, or null when unknown.",
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["min", "max"],
+      "properties": {
+        "min": { "type": "number" },
+        "max": { "type": "number" }
+      }
+    }
+  }
+}

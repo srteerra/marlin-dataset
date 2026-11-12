@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "echinodorus-quadricostatus",
+  "scientific_name": "Echinodorus quadricostatus",
+  "common_names": {
+    "es": ["Espada enana"],
+    "en": ["Dwarf Amazon sword"]
+  },
+  "family": "Alismataceae",
+  "water_type": "freshwater",
+  "zones": ["foreground"],
+  "growth_form": "grass",
+  "leaf_color": "green",
+  "max_height_cm": 10,
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "medium",
+  "care_level": "beginner",
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.5
+  },
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}
