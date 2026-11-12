@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "riccia-fluitans",
+  "scientific_name": "Riccia fluitans",
+  "common_names": {
+    "es": ["Riccia"],
+    "en": ["Crystalwort"]
+  },
+  "family": "Ricciaceae",
+  "water_type": "freshwater",
+  "zones": ["floating", "foreground"],
+  "growth_form": "floating",
+  "leaf_color": "green",
+  "max_height_cm": null,
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "fast",
+  "care_level": "beginner",
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 8.0
+  },
+  "hardness_dgh": null,
+  "notes": null,
+  "sources": [],
+  "status": "draft"
+}

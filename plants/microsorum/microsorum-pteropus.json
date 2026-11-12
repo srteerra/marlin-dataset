@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "microsorum-pteropus",
+  "scientific_name": "Microsorum pteropus",
+  "common_names": {
+    "es": ["Helecho de Java"],
+    "en": ["Java fern"]
+  },
+  "family": "Polypodiaceae",
+  "water_type": "freshwater",
+  "zones": ["epiphyte", "midground"],
+  "growth_form": "rhizome",
+  "leaf_color": "green",
+  "max_height_cm": 30,
+  "light": "low",
+  "carbon_dioxide": "optional",
+  "growth_rate": "slow",
+  "care_level": "beginner",
+  "temperature_c": {
+    "min": 20,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.5
+  },
+  "hardness_dgh": null,
+  "notes": "Tie the rhizome to wood or rock; buried in the substrate it rots.",
+  "sources": [],
+  "status": "draft"
+}

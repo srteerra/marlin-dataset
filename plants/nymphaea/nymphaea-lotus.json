@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schema/plant.schema.json",
+  "id": "nymphaea-lotus",
+  "scientific_name": "Nymphaea lotus",
+  "common_names": {
+    "es": ["Loto tigre"],
+    "en": ["Tiger lotus"]
+  },
+  "family": "Nymphaeaceae",
+  "water_type": "freshwater",
+  "zones": ["background", "floating"],
+  "growth_form": "rosette",
+  "leaf_color": "red",
+  "max_height_cm": null,
+  "light": "medium",
+  "carbon_dioxide": "optional",
+  "growth_rate": "fast",
+  "care_level": "beginner",
+  "temperature_c": {
+    "min": 22,
+    "max": 28
+  },
+  "ph": {
+    "min": 6.0,
+    "max": 7.5
+  },
+  "hardness_dgh": null,
+  "notes": "Trim the floating pads to keep it low and leafy under water.",
+  "sources": [],
+  "status": "draft"
+}
