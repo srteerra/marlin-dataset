@@ -10,15 +10,15 @@ var fixtureGeneratedAt = time.Date(2026, 10, 14, 12, 0, 0, 0, time.UTC)
 
 func TestBuildBundle(t *testing.T) {
 	result := validateFixture(t, "valid")
-	bundle, err := BuildBundle(result.Records, "v2026.10.0", fixtureGeneratedAt)
+	bundle, err := BuildBundle(result.Records, collections[CollectionFish], "v2026.10.0", fixtureGeneratedAt)
 	if err != nil {
 		t.Fatalf("BuildBundle returned an error: %v", err)
 	}
-	if bundle.Count != 2 || len(bundle.Fish) != 2 {
-		t.Fatalf("expected 2 fish, got count %d and %d items", bundle.Count, len(bundle.Fish))
+	if bundle.Count != 2 || len(bundle.Items) != 2 {
+		t.Fatalf("expected 2 fish, got count %d and %d items", bundle.Count, len(bundle.Items))
 	}
 	for index, wantID := range []string{`"testus-alpha"`, `"testus-beta"`} {
-		fish := bundle.Fish[index]
+		fish := bundle.Items[index]
 		if got := string(fish["id"]); got != wantID {
 			t.Errorf("fish %d: id = %s, want %s", index, got, wantID)
 		}
@@ -30,7 +30,7 @@ func TestBuildBundle(t *testing.T) {
 
 func TestBuildBundleRejectsInvalidVersion(t *testing.T) {
 	for _, version := range []string{"", "2026.10.0", "v2026.1.0", "v2026.10"} {
-		if _, err := BuildBundle(nil, version, fixtureGeneratedAt); err == nil {
+		if _, err := BuildBundle(nil, collections[CollectionFish], version, fixtureGeneratedAt); err == nil {
 			t.Errorf("BuildBundle accepted version %q", version)
 		}
 	}
@@ -38,7 +38,7 @@ func TestBuildBundleRejectsInvalidVersion(t *testing.T) {
 
 func TestBundleEncodeKeepsValuesAsWritten(t *testing.T) {
 	result := validateFixture(t, "valid")
-	bundle, err := BuildBundle(result.Records, "v2026.10.0", fixtureGeneratedAt)
+	bundle, err := BuildBundle(result.Records, collections[CollectionFish], "v2026.10.0", fixtureGeneratedAt)
 	if err != nil {
 		t.Fatalf("BuildBundle returned an error: %v", err)
 	}
