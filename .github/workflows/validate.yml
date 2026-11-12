@@ -25,5 +25,8 @@ jobs:
       - name: Test
         run: go test ./...
 
-      - name: Validate dataset
+      - name: Validate fish
         run: go run . validate ../fish
+
+      - name: Validate plants
+        run: go run . validate ../plants

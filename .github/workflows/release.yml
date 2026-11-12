@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "fish/**"
+      - "plants/**"
       - "schema/**"
 
 # Creating tags and releases needs write access, so it lives apart from validate.yml.
@@ -38,16 +39,19 @@ jobs:
           last=$(git tag --list "${prefix}*" | sed "s/^v[0-9]*\.[0-9]*\.//" | sort -n | tail -n 1)
           echo "value=${prefix}$(( ${last:--1} + 1 ))" >> "$GITHUB_OUTPUT"
 
-      - name: Build bundle
+      # Each collection is its own pair of assets, so fish.json keeps its public format.
+      - name: Build bundles
         working-directory: tools
-        run: go run . bundle --version "${{ steps.version.outputs.value }}" ../fish
+        run: |
+          go run . bundle --version "${{ steps.version.outputs.value }}" ../fish
+          go run . bundle --version "${{ steps.version.outputs.value }}" ../plants
 
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ steps.version.outputs.value }}
         run: |
-          gh release create "$VERSION" dist/fish.json dist/fish.min.json \
+          gh release create "$VERSION" dist/fish.json dist/fish.min.json dist/plants.json dist/plants.min.json \
             --target "$GITHUB_SHA" \
             --title "$VERSION" \
             --generate-notes
